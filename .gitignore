@@ -2,10 +2,6 @@
 __pycache__/
 *.pyc
 
-# منع رفع ملفات البيانات الكبيرة (الـ CSV)
-data/raw/*.csv
-data/processed/*.csv
-
 # منع رفع ملفات البيئة الافتراضية لو عامل وحدة
 venv/
 .venv/
