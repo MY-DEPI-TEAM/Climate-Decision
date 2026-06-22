@@ -1,0 +1,10 @@
+pandas
+matplotlib
+requests
+beautifulsoup4
+selenium
+openmeteo-requests
+requests-cache
+retry-requests
+pyodbc
+lxml

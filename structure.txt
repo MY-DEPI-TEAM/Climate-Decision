@@ -1,0 +1,20 @@
+CLIMATE-DECISION/
+│
+├── data/
+│   └── raw/
+│       ├── egypt_governorates_weather.csv
+│       ├── Egypt_Weather_2022_2025_Fin...csv
+│       ├── scraped_climate_insights.csv
+│       └── wikipedia_revision_history.csv
+│
+├── db_scripts/              # <--- new folder for SQL files
+│   ├── create_staging_tables.sql    # SQL file shown in the second screenshot
+│   └── views_or_procs.sql   # Any future additional SQL code
+│
+├── src/
+│   ├── ingestion/
+│   ├── processing/
+│   └── database/            # Python code that connects and runs the SQL
+│
+├── main.py
+└── requirements.txt
