@@ -38,55 +38,12 @@ Key packages include:
 - retry-requests
 - pyodbc
 - lxml
-- python-dotenv
-
-## Environment Configuration
-
-### Setup Instructions
-
-1. Create a `.env` file in the project root directory:
-
-```bash
-cp .env.example .env
-```
-
-2. Edit the `.env` file with your database server credentials if you want to use Docker/Azure.
-
-For local SQL Server, you do not need Azure values if `run_db_script()` remains using the local connection string.
-
-Example for Azure SQL Server:
-```env
-DB_SERVER=your-server-name.database.windows.net
-DB_NAME=Climate_Decision
-DB_USER=your_username
-DB_PASSWORD=your_strong_password
-```
-
-Example for local SQL Server via environment variables:
-```env
-DB_SERVER=localhost
-DB_NAME=Climate_Decision
-DB_USER=your_username
-DB_PASSWORD=your_strong_password
-```
-
-3. **Security Note**: The `.env` file is already listed in `.gitignore` and will NOT be committed to GitHub. Never share this file or commit it to version control.
-
-### Docker Setup
-
-When running with Docker, the environment variables will be read from the `.env` file automatically.
 
 ## Running locally
 
-1. Install the Python dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Create and configure your `.env` file (see Environment Configuration above).
-3. Make sure SQL Server is available and accessible.
-4. Run the pipeline:
+1. Install the Python dependencies.
+2. Make sure SQL Server is available and accessible.
+3. Run the pipeline:
 
 ```bash
 python main.py
@@ -119,8 +76,6 @@ The pipeline writes generated data to `data/raw/`, including:
 
 ## Notes
 
-- Database credentials are securely managed through environment variables in `.env`. Never hardcode credentials in the source code.
-- The `.env` file is excluded from version control (see `.gitignore`). Share `.env.example` with your team instead.
 - The project currently uses a hardcoded Windows base path in `main.py`, so the local workflow is set up for this workspace layout.
 - The SQL loader expects the database script at `db_scripts/SQLQuery1.sql`.
-- If you change the SQL Server password or database name, update the `.env` file accordingly.
+- If you change the SQL Server password or database name in `compose.yaml`, update the related loader settings too.
