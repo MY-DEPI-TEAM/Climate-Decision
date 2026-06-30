@@ -6,11 +6,13 @@ builds the database objects.
 
 from src.database.db_loader import run_db_script
 from src.ingestion.orchestrator import main as run_orchestrator
+from src.transformation.wiki_transformer import main as clean_wikipedia_revision_history
 
 
 def main() -> None:
 	"""Run the full pipeline in order."""
 	run_orchestrator()
+	clean_wikipedia_revision_history()
 	run_db_script()
 
 

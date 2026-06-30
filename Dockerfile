@@ -22,8 +22,8 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # تحميل المكتبات باستخدام الـ Cache mount لتسريع الـ Builds الجاية
+COPY requirements.txt requirements.txt
 RUN --mount=type=cache,target=/root/.cache/pip \
-    --mount=type=bind,source=requirements.txt,target=requirements.txt \
     python -m pip install -r requirements.txt
 
 # نسخ كود المشروع بالكامل جوه الـ Container

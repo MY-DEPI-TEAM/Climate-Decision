@@ -22,6 +22,7 @@
 **/*.jfm
 **/bin
 **/charts
+data/raw
 **/docker-compose*
 **/compose.y*ml
 **/Dockerfile*

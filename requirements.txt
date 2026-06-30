@@ -8,3 +8,4 @@ requests-cache
 retry-requests
 pyodbc
 lxml
+python-dotenv

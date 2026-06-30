@@ -25,7 +25,7 @@ services:
       dockerfile: Dockerfile
     container_name: climate_pipeline_container
     environment:
-      - DB_SERVER=database,1433
+      - DB_SERVER=host.docker.internal
       - DB_NAME=Climate_Decision
       - DB_USER=sa
       - DB_PASSWORD=YourStrong@Password123

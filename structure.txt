@@ -3,18 +3,37 @@ CLIMATE-DECISION/
 ├── data/
 │   └── raw/
 │       ├── egypt_governorates_weather.csv
-│       ├── Egypt_Weather_2022_2025_Fin...csv
+│       ├── Egypt_Weather_2022_2025_Final.csv
 │       ├── scraped_climate_insights.csv
 │       └── wikipedia_revision_history.csv
 │
-├── db_scripts/              # <--- new folder for SQL files
-│   ├── create_staging_tables.sql    # SQL file shown in the second screenshot
-│   └── views_or_procs.sql   # Any future additional SQL code
+├── db_scripts/
+│   └── SQLQuery1.sql
 │
-├── src/
-│   ├── ingestion/
-│   ├── processing/
-│   └── database/            # Python code that connects and runs the SQL
+src/
 │
+├── __init__.py
+│
+├── database/
+│   ├── __init__.py
+│   └── db_loader.py
+│
+└── ingestion/
+    ├── __init__.py
+    ├── orchestrator.py
+    ├── weather_data_collector.py
+    ├── weather_wikipedia_data.py
+    ├── weather_wikipedia_scrapping.py
+    └── wunderground.py
+│
+├── .dockerignore
+├── .env
+├── .env.example
+├── .gitignore
+├── compose.yaml
+├── Dockerfile
 ├── main.py
-└── requirements.txt
+├── README.Docker.md
+├── README.md
+├── requirements.txt
+└── structure.txt
