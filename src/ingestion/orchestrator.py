@@ -28,7 +28,7 @@ log = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-BASE_DIR = Path(r"D:\VS_code\VS_code_WorkSpace\python_projects\Climate-Decision")
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 RAW_DIR = BASE_DIR / "data" / "raw"
 SCRIPTS_DIR = BASE_DIR / "src" / "ingestion"
 

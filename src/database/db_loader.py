@@ -9,50 +9,50 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parents[2]
 
 def run_db_script():
-    "choose the correct connection string based on the environment (local or azure)"
-    print('='*50)
-    print("1. local\n2. azure")
+    # "choose the correct connection string based on the environment (local or azure)"
+    # print('='*50)
+    # print("1. local\n2. azure")
 
-    choice = input("Enter your choice (1 or 2): ").strip()
+    # choice = input("Enter your choice (1 or 2): ").strip()
 
-    if choice == '1':
-        # local connection string from .env
-        server = os.getenv('LOCAL_SQL_SERVER')
-        database = os.getenv('LOCAL_SQL_DATABASE')
+    # if choice == '1':
+    #     # local connection string from .env
+    #     server = os.getenv('LOCAL_SQL_SERVER')
+    #     database = os.getenv('LOCAL_SQL_DATABASE')
 
-        conn_str = (
-            f'DRIVER={{ODBC Driver 17 for SQL Server}};'
-            f'SERVER={server};'
-            f'DATABASE={database};'
-            f'Trusted_Connection=yes;'
-        )
+    #     conn_str = (
+    #         f'DRIVER={{ODBC Driver 17 for SQL Server}};'
+    #         f'SERVER={server};'
+    #         f'DATABASE={database};'
+    #         f'Trusted_Connection=yes;'
+    #     )
         
-        script_path = BASE_DIR / 'db_scripts' / 'Locally.sql'
+    #     script_path = BASE_DIR / 'db_scripts' / 'Locally.sql'
 
-    elif choice == '2':
+    # elif choice == '2':
         # azure connection string from .env
-        server = os.getenv('AZURE_SQL_SERVER')
-        database = os.getenv('AZURE_SQL_DATABASE')
-        user = os.getenv('AZURE_SQL_USER')
-        password = os.getenv('AZURE_SQL_PASSWORD')
+    server = os.getenv('AZURE_SQL_SERVER')
+    database = os.getenv('AZURE_SQL_DATABASE')
+    user = os.getenv('AZURE_SQL_USER')
+    password = os.getenv('AZURE_SQL_PASSWORD')
 
-        if not all([server, database, user, password]):
-            raise ValueError("Missing Azure SQL connection details in .env file.")
-        
-        conn_str = (
-            f'DRIVER={{ODBC Driver 17 for SQL Server}};'
-            f'SERVER={server};'
-            f'DATABASE={database};'
-            f'UID={user};'
-            f'PWD={password};'
-            f'Encrypt=yes;'
-            f'TrustServerCertificate=no;'
-            f'Connection Timeout=30;'
-        )
-        script_path = BASE_DIR / 'db_scripts' / 'Azure.sql'
+    if not all([server, database, user, password]):
+        raise ValueError("Missing Azure SQL connection details in .env file.")
+    
+    conn_str = (
+        f'DRIVER={{ODBC Driver 17 for SQL Server}};'
+        f'SERVER={server};'
+        f'DATABASE={database};'
+        f'UID={user};'
+        f'PWD={password};'
+        f'Encrypt=yes;'
+        f'TrustServerCertificate=no;'
+        f'Connection Timeout=30;'
+    )
+    script_path = BASE_DIR / 'db_scripts' / 'Azure.sql'
 
-    else:
-        raise ValueError("Invalid choice. Please enter 1 for local or 2 for azure.")
+    # else:
+    #     raise ValueError("Invalid choice. Please enter 1 for local or 2 for azure.")
 
     if not script_path.exists():
         raise FileNotFoundError(f"SQL file not found at path: {script_path}")

@@ -9,3 +9,5 @@ venv/
 # منع رفع ملفات الإعدادات المحلية
 .env
 .initial-data-logs/
+
+README.md
