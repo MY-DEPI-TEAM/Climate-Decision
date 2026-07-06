@@ -1,10 +1,13 @@
+
+```
 Climate-Decision
 ├─ .dockerignore
 ├─ compose.yaml
 ├─ data
 │  ├─ lakehouse
 │  │  └─ gold
-│  │     └─ ml_ready.csv
+│  │     ├─ fact_weather.parquet
+│  │     └─ ml_ready.parquet
 │  ├─ parsed
 │  │  └─ wikipedia_revision_history_clean.csv
 │  └─ raw
@@ -18,7 +21,6 @@ Climate-Decision
 ├─ Dockerfile
 ├─ main.py
 ├─ README.Docker.md
-├─ README.md
 ├─ requirements.txt
 ├─ src
 │  ├─ database
@@ -35,15 +37,25 @@ Climate-Decision
 │  │  ├─ wiki_transformer.py
 │  │  └─ __init__.py
 │  └─ __init__.py
+├─ tests
+│  └─ test_cleaning_fallback.py
 ├─ tree.txt
 └─ warehouse
    ├─ bronze
    │  ├─ access.py
    │  └─ __init__.py
    ├─ gold
+   │  ├─ fact_weather.py
    │  ├─ ml.py
+   │  ├─ vis
+   │  │  ├─ dim_condition.py
+   │  │  ├─ dim_date.py
+   │  │  ├─ dim_location.py
+   │  │  └─ __init__.py
    │  └─ __init__.py
    ├─ silver
    │  ├─ cleaning.py
    │  └─ __init__.py
    └─ __init__.py
+
+```
