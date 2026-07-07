@@ -93,7 +93,7 @@ def clean_wikipedia_revision_history(input_file: Path, output_file: Path) -> Non
 # Main
 # ---------------------------------------------------------------------------
 
-def main() -> None:
+def clean_wikipedia_revision_history() -> None:
     args = parse_args()
 
     if args.output_file.exists():
@@ -104,4 +104,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    clean_wikipedia_revision_history()

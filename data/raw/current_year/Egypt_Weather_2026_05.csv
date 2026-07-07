@@ -1,0 +1,838 @@
+﻿Governorate,Date,Year,Month,Weather_Code,Max_Temp,Min_Temp,Avg_Humidity,Source
+Cairo,2026-05-01,2026,5,0,31.9,16.8,42,Open-Meteo Historical Weather API
+Cairo,2026-05-02,2026,5,3,35.9,19.6,32,Open-Meteo Historical Weather API
+Cairo,2026-05-03,2026,5,51,28.1,18.1,51,Open-Meteo Historical Weather API
+Cairo,2026-05-04,2026,5,3,24.7,13.8,45,Open-Meteo Historical Weather API
+Cairo,2026-05-05,2026,5,3,24.7,14.1,44,Open-Meteo Historical Weather API
+Cairo,2026-05-06,2026,5,1,26.7,13.9,40,Open-Meteo Historical Weather API
+Cairo,2026-05-07,2026,5,3,29.0,15.4,46,Open-Meteo Historical Weather API
+Cairo,2026-05-08,2026,5,3,30.6,15.7,48,Open-Meteo Historical Weather API
+Cairo,2026-05-09,2026,5,3,33.3,16.6,41,Open-Meteo Historical Weather API
+Cairo,2026-05-10,2026,5,3,35.6,18.2,34,Open-Meteo Historical Weather API
+Cairo,2026-05-11,2026,5,1,36.7,20.0,22,Open-Meteo Historical Weather API
+Cairo,2026-05-12,2026,5,3,40.6,21.4,26,Open-Meteo Historical Weather API
+Cairo,2026-05-13,2026,5,2,36.5,18.7,41,Open-Meteo Historical Weather API
+Cairo,2026-05-14,2026,5,1,39.0,22.7,24,Open-Meteo Historical Weather API
+Cairo,2026-05-15,2026,5,3,33.0,21.2,33,Open-Meteo Historical Weather API
+Cairo,2026-05-16,2026,5,1,32.8,17.9,45,Open-Meteo Historical Weather API
+Cairo,2026-05-17,2026,5,2,41.3,22.9,28,Open-Meteo Historical Weather API
+Cairo,2026-05-18,2026,5,2,39.7,25.3,27,Open-Meteo Historical Weather API
+Cairo,2026-05-19,2026,5,3,37.1,22.4,31,Open-Meteo Historical Weather API
+Cairo,2026-05-20,2026,5,1,30.5,21.1,38,Open-Meteo Historical Weather API
+Cairo,2026-05-21,2026,5,2,29.2,17.8,48,Open-Meteo Historical Weather API
+Cairo,2026-05-22,2026,5,1,30.3,17.9,43,Open-Meteo Historical Weather API
+Cairo,2026-05-23,2026,5,2,31.6,19.9,37,Open-Meteo Historical Weather API
+Cairo,2026-05-24,2026,5,1,31.4,19.5,40,Open-Meteo Historical Weather API
+Cairo,2026-05-25,2026,5,3,31.6,19.0,47,Open-Meteo Historical Weather API
+Cairo,2026-05-26,2026,5,3,31.2,19.0,50,Open-Meteo Historical Weather API
+Cairo,2026-05-27,2026,5,3,32.0,18.6,50,Open-Meteo Historical Weather API
+Cairo,2026-05-28,2026,5,1,32.7,20.1,41,Open-Meteo Historical Weather API
+Cairo,2026-05-29,2026,5,2,33.9,20.9,37,Open-Meteo Historical Weather API
+Cairo,2026-05-30,2026,5,0,34.3,20.3,42,Open-Meteo Historical Weather API
+Cairo,2026-05-31,2026,5,3,34.8,21.3,38,Open-Meteo Historical Weather API
+Alexandria,2026-05-01,2026,5,3,24.8,12.9,73,Open-Meteo Historical Weather API
+Alexandria,2026-05-02,2026,5,51,27.1,15.8,72,Open-Meteo Historical Weather API
+Alexandria,2026-05-03,2026,5,51,20.1,16.5,69,Open-Meteo Historical Weather API
+Alexandria,2026-05-04,2026,5,53,20.9,15.7,55,Open-Meteo Historical Weather API
+Alexandria,2026-05-05,2026,5,3,20.4,15.9,51,Open-Meteo Historical Weather API
+Alexandria,2026-05-06,2026,5,3,22.7,13.9,56,Open-Meteo Historical Weather API
+Alexandria,2026-05-07,2026,5,3,23.4,14.9,65,Open-Meteo Historical Weather API
+Alexandria,2026-05-08,2026,5,3,24.6,15.3,65,Open-Meteo Historical Weather API
+Alexandria,2026-05-09,2026,5,3,26.5,15.7,63,Open-Meteo Historical Weather API
+Alexandria,2026-05-10,2026,5,3,29.0,14.8,55,Open-Meteo Historical Weather API
+Alexandria,2026-05-11,2026,5,1,29.5,16.3,56,Open-Meteo Historical Weather API
+Alexandria,2026-05-12,2026,5,3,28.6,19.4,61,Open-Meteo Historical Weather API
+Alexandria,2026-05-13,2026,5,3,29.8,17.5,69,Open-Meteo Historical Weather API
+Alexandria,2026-05-14,2026,5,2,33.8,19.8,50,Open-Meteo Historical Weather API
+Alexandria,2026-05-15,2026,5,3,23.6,18.7,73,Open-Meteo Historical Weather API
+Alexandria,2026-05-16,2026,5,2,25.6,18.4,69,Open-Meteo Historical Weather API
+Alexandria,2026-05-17,2026,5,51,39.0,19.7,48,Open-Meteo Historical Weather API
+Alexandria,2026-05-18,2026,5,3,27.4,20.7,65,Open-Meteo Historical Weather API
+Alexandria,2026-05-19,2026,5,2,26.7,18.9,64,Open-Meteo Historical Weather API
+Alexandria,2026-05-20,2026,5,3,23.0,19.9,68,Open-Meteo Historical Weather API
+Alexandria,2026-05-21,2026,5,51,23.4,19.1,70,Open-Meteo Historical Weather API
+Alexandria,2026-05-22,2026,5,51,24.0,17.9,74,Open-Meteo Historical Weather API
+Alexandria,2026-05-23,2026,5,0,24.5,16.2,73,Open-Meteo Historical Weather API
+Alexandria,2026-05-24,2026,5,1,24.4,17.5,72,Open-Meteo Historical Weather API
+Alexandria,2026-05-25,2026,5,1,24.5,18.0,72,Open-Meteo Historical Weather API
+Alexandria,2026-05-26,2026,5,3,24.9,19.1,69,Open-Meteo Historical Weather API
+Alexandria,2026-05-27,2026,5,1,25.3,18.2,74,Open-Meteo Historical Weather API
+Alexandria,2026-05-28,2026,5,3,26.2,17.1,76,Open-Meteo Historical Weather API
+Alexandria,2026-05-29,2026,5,0,25.5,18.9,78,Open-Meteo Historical Weather API
+Alexandria,2026-05-30,2026,5,0,26.5,19.8,76,Open-Meteo Historical Weather API
+Alexandria,2026-05-31,2026,5,3,26.6,19.3,65,Open-Meteo Historical Weather API
+Giza,2026-05-01,2026,5,0,31.9,16.8,42,Open-Meteo Historical Weather API
+Giza,2026-05-02,2026,5,3,35.9,19.6,32,Open-Meteo Historical Weather API
+Giza,2026-05-03,2026,5,51,28.1,18.1,51,Open-Meteo Historical Weather API
+Giza,2026-05-04,2026,5,3,24.7,13.8,45,Open-Meteo Historical Weather API
+Giza,2026-05-05,2026,5,3,24.7,14.1,44,Open-Meteo Historical Weather API
+Giza,2026-05-06,2026,5,1,26.7,13.9,40,Open-Meteo Historical Weather API
+Giza,2026-05-07,2026,5,3,29.0,15.4,46,Open-Meteo Historical Weather API
+Giza,2026-05-08,2026,5,3,30.6,15.7,48,Open-Meteo Historical Weather API
+Giza,2026-05-09,2026,5,3,33.3,16.6,41,Open-Meteo Historical Weather API
+Giza,2026-05-10,2026,5,3,35.6,18.2,34,Open-Meteo Historical Weather API
+Giza,2026-05-11,2026,5,1,36.7,20.0,22,Open-Meteo Historical Weather API
+Giza,2026-05-12,2026,5,3,40.6,21.4,26,Open-Meteo Historical Weather API
+Giza,2026-05-13,2026,5,2,36.5,18.7,41,Open-Meteo Historical Weather API
+Giza,2026-05-14,2026,5,1,39.0,22.7,24,Open-Meteo Historical Weather API
+Giza,2026-05-15,2026,5,3,33.0,21.2,33,Open-Meteo Historical Weather API
+Giza,2026-05-16,2026,5,1,32.8,17.9,45,Open-Meteo Historical Weather API
+Giza,2026-05-17,2026,5,2,41.3,22.9,28,Open-Meteo Historical Weather API
+Giza,2026-05-18,2026,5,2,39.7,25.3,27,Open-Meteo Historical Weather API
+Giza,2026-05-19,2026,5,3,37.1,22.4,31,Open-Meteo Historical Weather API
+Giza,2026-05-20,2026,5,1,30.5,21.1,38,Open-Meteo Historical Weather API
+Giza,2026-05-21,2026,5,2,29.2,17.8,48,Open-Meteo Historical Weather API
+Giza,2026-05-22,2026,5,1,30.3,17.9,43,Open-Meteo Historical Weather API
+Giza,2026-05-23,2026,5,2,31.6,19.9,37,Open-Meteo Historical Weather API
+Giza,2026-05-24,2026,5,1,31.4,19.5,40,Open-Meteo Historical Weather API
+Giza,2026-05-25,2026,5,3,31.6,19.0,47,Open-Meteo Historical Weather API
+Giza,2026-05-26,2026,5,3,31.2,19.0,50,Open-Meteo Historical Weather API
+Giza,2026-05-27,2026,5,3,32.0,18.6,50,Open-Meteo Historical Weather API
+Giza,2026-05-28,2026,5,1,32.7,20.1,41,Open-Meteo Historical Weather API
+Giza,2026-05-29,2026,5,2,33.9,20.9,37,Open-Meteo Historical Weather API
+Giza,2026-05-30,2026,5,0,34.3,20.3,42,Open-Meteo Historical Weather API
+Giza,2026-05-31,2026,5,3,34.8,21.3,38,Open-Meteo Historical Weather API
+Dakahlia,2026-05-01,2026,5,1,30.8,14.1,59,Open-Meteo Historical Weather API
+Dakahlia,2026-05-02,2026,5,3,34.2,15.7,57,Open-Meteo Historical Weather API
+Dakahlia,2026-05-03,2026,5,51,24.9,16.0,57,Open-Meteo Historical Weather API
+Dakahlia,2026-05-04,2026,5,3,24.7,13.7,51,Open-Meteo Historical Weather API
+Dakahlia,2026-05-05,2026,5,3,23.2,13.9,48,Open-Meteo Historical Weather API
+Dakahlia,2026-05-06,2026,5,3,25.4,12.2,49,Open-Meteo Historical Weather API
+Dakahlia,2026-05-07,2026,5,1,26.6,13.4,60,Open-Meteo Historical Weather API
+Dakahlia,2026-05-08,2026,5,3,28.1,14.7,59,Open-Meteo Historical Weather API
+Dakahlia,2026-05-09,2026,5,3,30.8,15.7,56,Open-Meteo Historical Weather API
+Dakahlia,2026-05-10,2026,5,3,34.4,15.5,46,Open-Meteo Historical Weather API
+Dakahlia,2026-05-11,2026,5,1,35.8,16.2,43,Open-Meteo Historical Weather API
+Dakahlia,2026-05-12,2026,5,2,40.8,18.8,41,Open-Meteo Historical Weather API
+Dakahlia,2026-05-13,2026,5,3,36.6,17.4,49,Open-Meteo Historical Weather API
+Dakahlia,2026-05-14,2026,5,2,39.5,20.2,32,Open-Meteo Historical Weather API
+Dakahlia,2026-05-15,2026,5,3,31.5,19.3,52,Open-Meteo Historical Weather API
+Dakahlia,2026-05-16,2026,5,2,32.0,17.1,50,Open-Meteo Historical Weather API
+Dakahlia,2026-05-17,2026,5,3,42.0,19.1,37,Open-Meteo Historical Weather API
+Dakahlia,2026-05-18,2026,5,3,35.4,22.1,42,Open-Meteo Historical Weather API
+Dakahlia,2026-05-19,2026,5,2,34.9,19.1,45,Open-Meteo Historical Weather API
+Dakahlia,2026-05-20,2026,5,2,28.4,19.8,49,Open-Meteo Historical Weather API
+Dakahlia,2026-05-21,2026,5,3,28.0,18.1,54,Open-Meteo Historical Weather API
+Dakahlia,2026-05-22,2026,5,3,30.8,17.1,54,Open-Meteo Historical Weather API
+Dakahlia,2026-05-23,2026,5,1,30.6,17.3,52,Open-Meteo Historical Weather API
+Dakahlia,2026-05-24,2026,5,3,31.0,17.4,55,Open-Meteo Historical Weather API
+Dakahlia,2026-05-25,2026,5,3,29.7,17.4,61,Open-Meteo Historical Weather API
+Dakahlia,2026-05-26,2026,5,2,30.8,17.8,62,Open-Meteo Historical Weather API
+Dakahlia,2026-05-27,2026,5,51,31.5,17.3,61,Open-Meteo Historical Weather API
+Dakahlia,2026-05-28,2026,5,2,33.2,17.2,55,Open-Meteo Historical Weather API
+Dakahlia,2026-05-29,2026,5,3,33.8,18.8,56,Open-Meteo Historical Weather API
+Dakahlia,2026-05-30,2026,5,0,34.7,18.4,56,Open-Meteo Historical Weather API
+Dakahlia,2026-05-31,2026,5,3,34.5,19.2,49,Open-Meteo Historical Weather API
+Red Sea,2026-05-01,2026,5,3,29.4,22.6,25,Open-Meteo Historical Weather API
+Red Sea,2026-05-02,2026,5,2,29.0,22.4,37,Open-Meteo Historical Weather API
+Red Sea,2026-05-03,2026,5,3,32.1,22.7,51,Open-Meteo Historical Weather API
+Red Sea,2026-05-04,2026,5,1,25.7,20.0,41,Open-Meteo Historical Weather API
+Red Sea,2026-05-05,2026,5,0,25.2,18.5,39,Open-Meteo Historical Weather API
+Red Sea,2026-05-06,2026,5,0,25.5,17.8,39,Open-Meteo Historical Weather API
+Red Sea,2026-05-07,2026,5,0,26.7,19.0,39,Open-Meteo Historical Weather API
+Red Sea,2026-05-08,2026,5,0,27.1,18.3,46,Open-Meteo Historical Weather API
+Red Sea,2026-05-09,2026,5,3,29.2,20.4,42,Open-Meteo Historical Weather API
+Red Sea,2026-05-10,2026,5,3,29.3,21.8,36,Open-Meteo Historical Weather API
+Red Sea,2026-05-11,2026,5,0,30.5,23.3,31,Open-Meteo Historical Weather API
+Red Sea,2026-05-12,2026,5,0,32.8,23.8,28,Open-Meteo Historical Weather API
+Red Sea,2026-05-13,2026,5,0,31.6,26.4,30,Open-Meteo Historical Weather API
+Red Sea,2026-05-14,2026,5,0,33.9,23.4,24,Open-Meteo Historical Weather API
+Red Sea,2026-05-15,2026,5,3,34.0,25.4,29,Open-Meteo Historical Weather API
+Red Sea,2026-05-16,2026,5,3,31.3,23.1,33,Open-Meteo Historical Weather API
+Red Sea,2026-05-17,2026,5,0,32.9,23.4,35,Open-Meteo Historical Weather API
+Red Sea,2026-05-18,2026,5,3,33.1,25.6,48,Open-Meteo Historical Weather API
+Red Sea,2026-05-19,2026,5,1,35.7,25.8,35,Open-Meteo Historical Weather API
+Red Sea,2026-05-20,2026,5,2,33.0,25.3,34,Open-Meteo Historical Weather API
+Red Sea,2026-05-21,2026,5,0,28.2,21.9,40,Open-Meteo Historical Weather API
+Red Sea,2026-05-22,2026,5,0,28.6,22.8,39,Open-Meteo Historical Weather API
+Red Sea,2026-05-23,2026,5,3,30.2,23.7,35,Open-Meteo Historical Weather API
+Red Sea,2026-05-24,2026,5,2,29.6,22.7,41,Open-Meteo Historical Weather API
+Red Sea,2026-05-25,2026,5,0,31.1,22.3,37,Open-Meteo Historical Weather API
+Red Sea,2026-05-26,2026,5,3,28.2,22.1,46,Open-Meteo Historical Weather API
+Red Sea,2026-05-27,2026,5,3,28.6,22.7,43,Open-Meteo Historical Weather API
+Red Sea,2026-05-28,2026,5,2,30.4,24.0,34,Open-Meteo Historical Weather API
+Red Sea,2026-05-29,2026,5,1,31.3,23.4,35,Open-Meteo Historical Weather API
+Red Sea,2026-05-30,2026,5,0,30.2,24.4,34,Open-Meteo Historical Weather API
+Red Sea,2026-05-31,2026,5,1,31.9,25.2,35,Open-Meteo Historical Weather API
+Beheira,2026-05-01,2026,5,3,30.3,13.3,61,Open-Meteo Historical Weather API
+Beheira,2026-05-02,2026,5,53,34.7,15.7,60,Open-Meteo Historical Weather API
+Beheira,2026-05-03,2026,5,61,22.7,15.6,60,Open-Meteo Historical Weather API
+Beheira,2026-05-04,2026,5,53,23.2,12.9,53,Open-Meteo Historical Weather API
+Beheira,2026-05-05,2026,5,3,22.2,14.5,48,Open-Meteo Historical Weather API
+Beheira,2026-05-06,2026,5,3,24.7,12.9,53,Open-Meteo Historical Weather API
+Beheira,2026-05-07,2026,5,3,26.9,13.3,60,Open-Meteo Historical Weather API
+Beheira,2026-05-08,2026,5,3,28.4,14.6,58,Open-Meteo Historical Weather API
+Beheira,2026-05-09,2026,5,3,30.6,15.6,53,Open-Meteo Historical Weather API
+Beheira,2026-05-10,2026,5,2,34.7,15.4,45,Open-Meteo Historical Weather API
+Beheira,2026-05-11,2026,5,1,36.2,16.6,41,Open-Meteo Historical Weather API
+Beheira,2026-05-12,2026,5,3,37.6,19.3,44,Open-Meteo Historical Weather API
+Beheira,2026-05-13,2026,5,3,37.1,16.9,54,Open-Meteo Historical Weather API
+Beheira,2026-05-14,2026,5,3,39.3,19.7,35,Open-Meteo Historical Weather API
+Beheira,2026-05-15,2026,5,3,29.8,18.4,57,Open-Meteo Historical Weather API
+Beheira,2026-05-16,2026,5,1,32.2,16.9,54,Open-Meteo Historical Weather API
+Beheira,2026-05-17,2026,5,51,44.0,20.3,36,Open-Meteo Historical Weather API
+Beheira,2026-05-18,2026,5,3,33.9,21.1,48,Open-Meteo Historical Weather API
+Beheira,2026-05-19,2026,5,2,33.5,18.7,51,Open-Meteo Historical Weather API
+Beheira,2026-05-20,2026,5,3,26.5,19.8,56,Open-Meteo Historical Weather API
+Beheira,2026-05-21,2026,5,3,27.3,18.1,57,Open-Meteo Historical Weather API
+Beheira,2026-05-22,2026,5,2,30.6,16.3,60,Open-Meteo Historical Weather API
+Beheira,2026-05-23,2026,5,51,29.7,16.4,58,Open-Meteo Historical Weather API
+Beheira,2026-05-24,2026,5,2,30.4,16.8,62,Open-Meteo Historical Weather API
+Beheira,2026-05-25,2026,5,1,28.5,17.0,65,Open-Meteo Historical Weather API
+Beheira,2026-05-26,2026,5,2,29.5,17.8,64,Open-Meteo Historical Weather API
+Beheira,2026-05-27,2026,5,51,30.5,16.9,66,Open-Meteo Historical Weather API
+Beheira,2026-05-28,2026,5,2,32.2,16.5,61,Open-Meteo Historical Weather API
+Beheira,2026-05-29,2026,5,0,31.5,17.4,65,Open-Meteo Historical Weather API
+Beheira,2026-05-30,2026,5,0,32.9,18.3,63,Open-Meteo Historical Weather API
+Beheira,2026-05-31,2026,5,3,33.1,18.5,55,Open-Meteo Historical Weather API
+Fayoum,2026-05-01,2026,5,3,31.9,16.8,35,Open-Meteo Historical Weather API
+Fayoum,2026-05-02,2026,5,3,37.9,19.1,30,Open-Meteo Historical Weather API
+Fayoum,2026-05-03,2026,5,2,29.5,18.0,45,Open-Meteo Historical Weather API
+Fayoum,2026-05-04,2026,5,1,25.0,14.0,43,Open-Meteo Historical Weather API
+Fayoum,2026-05-05,2026,5,3,24.5,13.5,43,Open-Meteo Historical Weather API
+Fayoum,2026-05-06,2026,5,0,26.0,13.3,39,Open-Meteo Historical Weather API
+Fayoum,2026-05-07,2026,5,1,29.1,15.6,41,Open-Meteo Historical Weather API
+Fayoum,2026-05-08,2026,5,3,30.7,16.1,44,Open-Meteo Historical Weather API
+Fayoum,2026-05-09,2026,5,3,33.3,17.4,34,Open-Meteo Historical Weather API
+Fayoum,2026-05-10,2026,5,3,35.4,19.7,27,Open-Meteo Historical Weather API
+Fayoum,2026-05-11,2026,5,1,36.4,19.5,20,Open-Meteo Historical Weather API
+Fayoum,2026-05-12,2026,5,1,40.8,21.6,23,Open-Meteo Historical Weather API
+Fayoum,2026-05-13,2026,5,2,36.6,18.3,38,Open-Meteo Historical Weather API
+Fayoum,2026-05-14,2026,5,1,39.7,22.4,22,Open-Meteo Historical Weather API
+Fayoum,2026-05-15,2026,5,3,33.5,21.9,30,Open-Meteo Historical Weather API
+Fayoum,2026-05-16,2026,5,2,32.5,18.3,39,Open-Meteo Historical Weather API
+Fayoum,2026-05-17,2026,5,2,42.7,22.7,24,Open-Meteo Historical Weather API
+Fayoum,2026-05-18,2026,5,3,40.0,26.0,25,Open-Meteo Historical Weather API
+Fayoum,2026-05-19,2026,5,1,38.7,23.8,27,Open-Meteo Historical Weather API
+Fayoum,2026-05-20,2026,5,0,31.1,21.6,35,Open-Meteo Historical Weather API
+Fayoum,2026-05-21,2026,5,2,28.9,17.9,47,Open-Meteo Historical Weather API
+Fayoum,2026-05-22,2026,5,2,31.0,18.2,40,Open-Meteo Historical Weather API
+Fayoum,2026-05-23,2026,5,1,33.2,19.3,33,Open-Meteo Historical Weather API
+Fayoum,2026-05-24,2026,5,0,31.8,19.8,36,Open-Meteo Historical Weather API
+Fayoum,2026-05-25,2026,5,2,31.2,19.3,41,Open-Meteo Historical Weather API
+Fayoum,2026-05-26,2026,5,3,30.9,19.3,47,Open-Meteo Historical Weather API
+Fayoum,2026-05-27,2026,5,2,31.5,19.6,44,Open-Meteo Historical Weather API
+Fayoum,2026-05-28,2026,5,2,33.7,20.1,37,Open-Meteo Historical Weather API
+Fayoum,2026-05-29,2026,5,0,33.0,21.3,33,Open-Meteo Historical Weather API
+Fayoum,2026-05-30,2026,5,0,34.2,20.2,37,Open-Meteo Historical Weather API
+Fayoum,2026-05-31,2026,5,3,35.0,21.3,35,Open-Meteo Historical Weather API
+Gharbia,2026-05-01,2026,5,2,31.4,13.8,52,Open-Meteo Historical Weather API
+Gharbia,2026-05-02,2026,5,3,34.9,16.2,50,Open-Meteo Historical Weather API
+Gharbia,2026-05-03,2026,5,51,24.9,16.2,53,Open-Meteo Historical Weather API
+Gharbia,2026-05-04,2026,5,3,24.9,13.0,50,Open-Meteo Historical Weather API
+Gharbia,2026-05-05,2026,5,3,23.9,13.6,47,Open-Meteo Historical Weather API
+Gharbia,2026-05-06,2026,5,3,26.0,12.6,46,Open-Meteo Historical Weather API
+Gharbia,2026-05-07,2026,5,2,28.1,13.5,55,Open-Meteo Historical Weather API
+Gharbia,2026-05-08,2026,5,3,29.8,14.4,52,Open-Meteo Historical Weather API
+Gharbia,2026-05-09,2026,5,3,32.5,15.6,49,Open-Meteo Historical Weather API
+Gharbia,2026-05-10,2026,5,3,35.4,16.2,37,Open-Meteo Historical Weather API
+Gharbia,2026-05-11,2026,5,1,36.9,16.8,29,Open-Meteo Historical Weather API
+Gharbia,2026-05-12,2026,5,3,40.9,19.8,33,Open-Meteo Historical Weather API
+Gharbia,2026-05-13,2026,5,3,36.8,17.4,47,Open-Meteo Historical Weather API
+Gharbia,2026-05-14,2026,5,3,39.2,21.1,27,Open-Meteo Historical Weather API
+Gharbia,2026-05-15,2026,5,3,32.5,19.3,46,Open-Meteo Historical Weather API
+Gharbia,2026-05-16,2026,5,2,33.0,17.1,49,Open-Meteo Historical Weather API
+Gharbia,2026-05-17,2026,5,3,42.8,20.4,30,Open-Meteo Historical Weather API
+Gharbia,2026-05-18,2026,5,3,37.8,22.6,37,Open-Meteo Historical Weather API
+Gharbia,2026-05-19,2026,5,1,35.9,19.7,41,Open-Meteo Historical Weather API
+Gharbia,2026-05-20,2026,5,1,28.9,20.0,47,Open-Meteo Historical Weather API
+Gharbia,2026-05-21,2026,5,3,28.2,17.7,53,Open-Meteo Historical Weather API
+Gharbia,2026-05-22,2026,5,1,31.6,16.5,51,Open-Meteo Historical Weather API
+Gharbia,2026-05-23,2026,5,1,31.1,17.8,45,Open-Meteo Historical Weather API
+Gharbia,2026-05-24,2026,5,1,31.9,17.2,48,Open-Meteo Historical Weather API
+Gharbia,2026-05-25,2026,5,3,31.6,17.2,57,Open-Meteo Historical Weather API
+Gharbia,2026-05-26,2026,5,3,31.4,17.6,57,Open-Meteo Historical Weather API
+Gharbia,2026-05-27,2026,5,1,32.2,17.2,58,Open-Meteo Historical Weather API
+Gharbia,2026-05-28,2026,5,1,32.9,17.3,54,Open-Meteo Historical Weather API
+Gharbia,2026-05-29,2026,5,3,33.6,18.6,52,Open-Meteo Historical Weather API
+Gharbia,2026-05-30,2026,5,1,34.9,18.1,53,Open-Meteo Historical Weather API
+Gharbia,2026-05-31,2026,5,3,34.9,19.3,45,Open-Meteo Historical Weather API
+Ismailia,2026-05-01,2026,5,3,29.5,14.9,60,Open-Meteo Historical Weather API
+Ismailia,2026-05-02,2026,5,3,33.3,15.8,50,Open-Meteo Historical Weather API
+Ismailia,2026-05-03,2026,5,51,29.2,17.3,59,Open-Meteo Historical Weather API
+Ismailia,2026-05-04,2026,5,3,25.1,13.4,46,Open-Meteo Historical Weather API
+Ismailia,2026-05-05,2026,5,2,25.1,14.0,44,Open-Meteo Historical Weather API
+Ismailia,2026-05-06,2026,5,0,25.6,13.4,43,Open-Meteo Historical Weather API
+Ismailia,2026-05-07,2026,5,3,25.7,14.4,58,Open-Meteo Historical Weather API
+Ismailia,2026-05-08,2026,5,3,27.5,14.4,59,Open-Meteo Historical Weather API
+Ismailia,2026-05-09,2026,5,3,30.5,15.5,55,Open-Meteo Historical Weather API
+Ismailia,2026-05-10,2026,5,3,33.1,15.8,51,Open-Meteo Historical Weather API
+Ismailia,2026-05-11,2026,5,3,34.1,15.7,45,Open-Meteo Historical Weather API
+Ismailia,2026-05-12,2026,5,3,40.9,18.0,38,Open-Meteo Historical Weather API
+Ismailia,2026-05-13,2026,5,2,35.3,17.3,47,Open-Meteo Historical Weather API
+Ismailia,2026-05-14,2026,5,3,39.1,19.2,37,Open-Meteo Historical Weather API
+Ismailia,2026-05-15,2026,5,3,33.2,19.6,43,Open-Meteo Historical Weather API
+Ismailia,2026-05-16,2026,5,2,31.8,17.3,52,Open-Meteo Historical Weather API
+Ismailia,2026-05-17,2026,5,1,41.2,18.5,40,Open-Meteo Historical Weather API
+Ismailia,2026-05-18,2026,5,3,35.7,23.3,37,Open-Meteo Historical Weather API
+Ismailia,2026-05-19,2026,5,2,34.8,19.1,48,Open-Meteo Historical Weather API
+Ismailia,2026-05-20,2026,5,2,31.5,19.1,44,Open-Meteo Historical Weather API
+Ismailia,2026-05-21,2026,5,51,27.9,17.6,49,Open-Meteo Historical Weather API
+Ismailia,2026-05-22,2026,5,1,31.5,16.9,52,Open-Meteo Historical Weather API
+Ismailia,2026-05-23,2026,5,3,31.9,17.4,53,Open-Meteo Historical Weather API
+Ismailia,2026-05-24,2026,5,0,32.0,17.1,59,Open-Meteo Historical Weather API
+Ismailia,2026-05-25,2026,5,3,30.2,17.1,63,Open-Meteo Historical Weather API
+Ismailia,2026-05-26,2026,5,3,30.3,17.2,61,Open-Meteo Historical Weather API
+Ismailia,2026-05-27,2026,5,3,30.9,17.0,62,Open-Meteo Historical Weather API
+Ismailia,2026-05-28,2026,5,2,33.3,17.4,59,Open-Meteo Historical Weather API
+Ismailia,2026-05-29,2026,5,3,35.0,18.4,53,Open-Meteo Historical Weather API
+Ismailia,2026-05-30,2026,5,2,34.6,18.3,53,Open-Meteo Historical Weather API
+Ismailia,2026-05-31,2026,5,3,34.1,19.3,49,Open-Meteo Historical Weather API
+Menofia,2026-05-01,2026,5,2,31.6,14.4,48,Open-Meteo Historical Weather API
+Menofia,2026-05-02,2026,5,3,35.7,16.7,45,Open-Meteo Historical Weather API
+Menofia,2026-05-03,2026,5,51,26.6,16.1,52,Open-Meteo Historical Weather API
+Menofia,2026-05-04,2026,5,51,25.3,13.0,48,Open-Meteo Historical Weather API
+Menofia,2026-05-05,2026,5,3,24.5,13.4,47,Open-Meteo Historical Weather API
+Menofia,2026-05-06,2026,5,3,26.3,12.2,45,Open-Meteo Historical Weather API
+Menofia,2026-05-07,2026,5,3,28.7,13.5,53,Open-Meteo Historical Weather API
+Menofia,2026-05-08,2026,5,3,30.4,14.3,51,Open-Meteo Historical Weather API
+Menofia,2026-05-09,2026,5,3,33.1,15.5,46,Open-Meteo Historical Weather API
+Menofia,2026-05-10,2026,5,3,35.7,16.0,36,Open-Meteo Historical Weather API
+Menofia,2026-05-11,2026,5,1,36.9,16.8,27,Open-Meteo Historical Weather API
+Menofia,2026-05-12,2026,5,3,41.4,19.5,29,Open-Meteo Historical Weather API
+Menofia,2026-05-13,2026,5,3,37.0,17.2,45,Open-Meteo Historical Weather API
+Menofia,2026-05-14,2026,5,2,39.6,20.8,25,Open-Meteo Historical Weather API
+Menofia,2026-05-15,2026,5,3,32.9,19.3,40,Open-Meteo Historical Weather API
+Menofia,2026-05-16,2026,5,1,33.2,16.9,48,Open-Meteo Historical Weather API
+Menofia,2026-05-17,2026,5,2,42.4,20.4,28,Open-Meteo Historical Weather API
+Menofia,2026-05-18,2026,5,2,39.5,23.3,33,Open-Meteo Historical Weather API
+Menofia,2026-05-19,2026,5,2,36.6,20.2,36,Open-Meteo Historical Weather API
+Menofia,2026-05-20,2026,5,1,29.8,19.9,43,Open-Meteo Historical Weather API
+Menofia,2026-05-21,2026,5,3,28.6,17.6,52,Open-Meteo Historical Weather API
+Menofia,2026-05-22,2026,5,1,31.2,16.2,48,Open-Meteo Historical Weather API
+Menofia,2026-05-23,2026,5,1,31.5,17.8,42,Open-Meteo Historical Weather API
+Menofia,2026-05-24,2026,5,1,32.2,17.4,44,Open-Meteo Historical Weather API
+Menofia,2026-05-25,2026,5,3,32.2,17.3,54,Open-Meteo Historical Weather API
+Menofia,2026-05-26,2026,5,3,32.2,17.7,54,Open-Meteo Historical Weather API
+Menofia,2026-05-27,2026,5,2,32.3,17.2,54,Open-Meteo Historical Weather API
+Menofia,2026-05-28,2026,5,1,33.3,17.6,50,Open-Meteo Historical Weather API
+Menofia,2026-05-29,2026,5,3,34.2,18.9,47,Open-Meteo Historical Weather API
+Menofia,2026-05-30,2026,5,1,35.2,18.0,50,Open-Meteo Historical Weather API
+Menofia,2026-05-31,2026,5,3,35.2,19.3,42,Open-Meteo Historical Weather API
+Minya,2026-05-01,2026,5,3,33.6,18.1,26,Open-Meteo Historical Weather API
+Minya,2026-05-02,2026,5,3,38.9,19.2,18,Open-Meteo Historical Weather API
+Minya,2026-05-03,2026,5,2,32.9,19.0,34,Open-Meteo Historical Weather API
+Minya,2026-05-04,2026,5,0,25.9,15.4,37,Open-Meteo Historical Weather API
+Minya,2026-05-05,2026,5,1,24.8,14.7,36,Open-Meteo Historical Weather API
+Minya,2026-05-06,2026,5,0,27.2,15.0,33,Open-Meteo Historical Weather API
+Minya,2026-05-07,2026,5,0,30.0,16.4,37,Open-Meteo Historical Weather API
+Minya,2026-05-08,2026,5,2,32.1,16.0,37,Open-Meteo Historical Weather API
+Minya,2026-05-09,2026,5,3,34.8,18.2,31,Open-Meteo Historical Weather API
+Minya,2026-05-10,2026,5,3,36.4,20.7,22,Open-Meteo Historical Weather API
+Minya,2026-05-11,2026,5,0,37.1,20.5,21,Open-Meteo Historical Weather API
+Minya,2026-05-12,2026,5,0,40.9,20.6,19,Open-Meteo Historical Weather API
+Minya,2026-05-13,2026,5,0,37.7,21.5,27,Open-Meteo Historical Weather API
+Minya,2026-05-14,2026,5,2,40.4,22.0,17,Open-Meteo Historical Weather API
+Minya,2026-05-15,2026,5,3,36.4,23.6,21,Open-Meteo Historical Weather API
+Minya,2026-05-16,2026,5,2,34.1,21.1,26,Open-Meteo Historical Weather API
+Minya,2026-05-17,2026,5,2,43.5,21.8,25,Open-Meteo Historical Weather API
+Minya,2026-05-18,2026,5,3,44.1,25.5,22,Open-Meteo Historical Weather API
+Minya,2026-05-19,2026,5,2,41.9,26.1,23,Open-Meteo Historical Weather API
+Minya,2026-05-20,2026,5,1,32.9,24.1,28,Open-Meteo Historical Weather API
+Minya,2026-05-21,2026,5,1,29.5,18.6,38,Open-Meteo Historical Weather API
+Minya,2026-05-22,2026,5,2,31.6,19.3,36,Open-Meteo Historical Weather API
+Minya,2026-05-23,2026,5,0,33.7,19.8,28,Open-Meteo Historical Weather API
+Minya,2026-05-24,2026,5,0,33.0,20.3,30,Open-Meteo Historical Weather API
+Minya,2026-05-25,2026,5,0,32.3,19.7,35,Open-Meteo Historical Weather API
+Minya,2026-05-26,2026,5,3,31.0,20.5,41,Open-Meteo Historical Weather API
+Minya,2026-05-27,2026,5,2,32.0,20.4,40,Open-Meteo Historical Weather API
+Minya,2026-05-28,2026,5,3,34.4,20.1,34,Open-Meteo Historical Weather API
+Minya,2026-05-29,2026,5,0,34.2,21.8,26,Open-Meteo Historical Weather API
+Minya,2026-05-30,2026,5,0,35.7,21.3,28,Open-Meteo Historical Weather API
+Minya,2026-05-31,2026,5,2,36.1,22.5,30,Open-Meteo Historical Weather API
+Qalyubia,2026-05-01,2026,5,2,31.8,14.9,48,Open-Meteo Historical Weather API
+Qalyubia,2026-05-02,2026,5,3,36.1,17.0,43,Open-Meteo Historical Weather API
+Qalyubia,2026-05-03,2026,5,51,27.5,16.8,52,Open-Meteo Historical Weather API
+Qalyubia,2026-05-04,2026,5,3,25.4,13.2,47,Open-Meteo Historical Weather API
+Qalyubia,2026-05-05,2026,5,3,24.8,13.6,45,Open-Meteo Historical Weather API
+Qalyubia,2026-05-06,2026,5,3,26.5,13.0,43,Open-Meteo Historical Weather API
+Qalyubia,2026-05-07,2026,5,3,28.6,14.0,51,Open-Meteo Historical Weather API
+Qalyubia,2026-05-08,2026,5,2,30.3,14.7,50,Open-Meteo Historical Weather API
+Qalyubia,2026-05-09,2026,5,3,33.1,15.5,47,Open-Meteo Historical Weather API
+Qalyubia,2026-05-10,2026,5,3,35.5,16.3,37,Open-Meteo Historical Weather API
+Qalyubia,2026-05-11,2026,5,1,36.8,17.0,27,Open-Meteo Historical Weather API
+Qalyubia,2026-05-12,2026,5,3,41.3,19.4,27,Open-Meteo Historical Weather API
+Qalyubia,2026-05-13,2026,5,3,36.7,17.6,44,Open-Meteo Historical Weather API
+Qalyubia,2026-05-14,2026,5,3,39.1,20.5,27,Open-Meteo Historical Weather API
+Qalyubia,2026-05-15,2026,5,3,33.0,19.6,39,Open-Meteo Historical Weather API
+Qalyubia,2026-05-16,2026,5,1,33.0,17.4,47,Open-Meteo Historical Weather API
+Qalyubia,2026-05-17,2026,5,2,41.7,20.5,29,Open-Meteo Historical Weather API
+Qalyubia,2026-05-18,2026,5,3,39.5,23.8,32,Open-Meteo Historical Weather API
+Qalyubia,2026-05-19,2026,5,2,36.6,20.5,35,Open-Meteo Historical Weather API
+Qalyubia,2026-05-20,2026,5,1,30.4,20.3,42,Open-Meteo Historical Weather API
+Qalyubia,2026-05-21,2026,5,3,28.3,17.8,51,Open-Meteo Historical Weather API
+Qalyubia,2026-05-22,2026,5,1,31.4,16.9,47,Open-Meteo Historical Weather API
+Qalyubia,2026-05-23,2026,5,1,31.9,18.1,41,Open-Meteo Historical Weather API
+Qalyubia,2026-05-24,2026,5,1,32.8,18.1,43,Open-Meteo Historical Weather API
+Qalyubia,2026-05-25,2026,5,3,32.3,17.6,52,Open-Meteo Historical Weather API
+Qalyubia,2026-05-26,2026,5,3,31.7,18.3,53,Open-Meteo Historical Weather API
+Qalyubia,2026-05-27,2026,5,2,32.3,17.6,53,Open-Meteo Historical Weather API
+Qalyubia,2026-05-28,2026,5,1,33.3,18.3,46,Open-Meteo Historical Weather API
+Qalyubia,2026-05-29,2026,5,3,33.9,19.4,44,Open-Meteo Historical Weather API
+Qalyubia,2026-05-30,2026,5,1,35.1,18.8,47,Open-Meteo Historical Weather API
+Qalyubia,2026-05-31,2026,5,3,35.3,19.9,41,Open-Meteo Historical Weather API
+New Valley,2026-05-01,2026,5,2,35.1,20.0,16,Open-Meteo Historical Weather API
+New Valley,2026-05-02,2026,5,3,41.7,23.4,14,Open-Meteo Historical Weather API
+New Valley,2026-05-03,2026,5,3,34.9,24.7,25,Open-Meteo Historical Weather API
+New Valley,2026-05-04,2026,5,0,27.4,20.1,29,Open-Meteo Historical Weather API
+New Valley,2026-05-05,2026,5,0,26.8,15.7,26,Open-Meteo Historical Weather API
+New Valley,2026-05-06,2026,5,3,27.9,15.3,27,Open-Meteo Historical Weather API
+New Valley,2026-05-07,2026,5,0,29.8,16.1,26,Open-Meteo Historical Weather API
+New Valley,2026-05-08,2026,5,2,31.9,18.4,25,Open-Meteo Historical Weather API
+New Valley,2026-05-09,2026,5,3,33.3,19.8,24,Open-Meteo Historical Weather API
+New Valley,2026-05-10,2026,5,3,36.1,22.8,17,Open-Meteo Historical Weather API
+New Valley,2026-05-11,2026,5,0,36.8,24.2,17,Open-Meteo Historical Weather API
+New Valley,2026-05-12,2026,5,0,40.8,22.5,13,Open-Meteo Historical Weather API
+New Valley,2026-05-13,2026,5,0,38.6,25.6,16,Open-Meteo Historical Weather API
+New Valley,2026-05-14,2026,5,0,39.8,23.3,11,Open-Meteo Historical Weather API
+New Valley,2026-05-15,2026,5,2,40.2,26.1,12,Open-Meteo Historical Weather API
+New Valley,2026-05-16,2026,5,2,36.2,25.2,16,Open-Meteo Historical Weather API
+New Valley,2026-05-17,2026,5,0,43.7,23.9,19,Open-Meteo Historical Weather API
+New Valley,2026-05-18,2026,5,3,48.6,29.0,12,Open-Meteo Historical Weather API
+New Valley,2026-05-19,2026,5,1,45.3,29.6,13,Open-Meteo Historical Weather API
+New Valley,2026-05-20,2026,5,3,38.8,29.5,19,Open-Meteo Historical Weather API
+New Valley,2026-05-21,2026,5,0,31.6,21.9,25,Open-Meteo Historical Weather API
+New Valley,2026-05-22,2026,5,1,33.5,19.8,25,Open-Meteo Historical Weather API
+New Valley,2026-05-23,2026,5,3,34.6,23.2,20,Open-Meteo Historical Weather API
+New Valley,2026-05-24,2026,5,2,33.8,20.4,19,Open-Meteo Historical Weather API
+New Valley,2026-05-25,2026,5,3,33.5,22.0,24,Open-Meteo Historical Weather API
+New Valley,2026-05-26,2026,5,3,33.4,22.3,27,Open-Meteo Historical Weather API
+New Valley,2026-05-27,2026,5,3,33.2,21.8,30,Open-Meteo Historical Weather API
+New Valley,2026-05-28,2026,5,2,35.4,21.1,25,Open-Meteo Historical Weather API
+New Valley,2026-05-29,2026,5,0,35.6,23.0,19,Open-Meteo Historical Weather API
+New Valley,2026-05-30,2026,5,0,35.6,22.6,21,Open-Meteo Historical Weather API
+New Valley,2026-05-31,2026,5,1,36.8,24.0,20,Open-Meteo Historical Weather API
+Suez,2026-05-01,2026,5,0,29.5,16.7,36,Open-Meteo Historical Weather API
+Suez,2026-05-02,2026,5,3,32.7,18.6,32,Open-Meteo Historical Weather API
+Suez,2026-05-03,2026,5,2,29.8,17.8,56,Open-Meteo Historical Weather API
+Suez,2026-05-04,2026,5,2,25.6,13.8,42,Open-Meteo Historical Weather API
+Suez,2026-05-05,2026,5,3,25.5,13.4,42,Open-Meteo Historical Weather API
+Suez,2026-05-06,2026,5,0,24.6,13.3,43,Open-Meteo Historical Weather API
+Suez,2026-05-07,2026,5,2,25.6,14.2,57,Open-Meteo Historical Weather API
+Suez,2026-05-08,2026,5,3,27.7,14.6,58,Open-Meteo Historical Weather API
+Suez,2026-05-09,2026,5,3,29.9,15.7,51,Open-Meteo Historical Weather API
+Suez,2026-05-10,2026,5,3,32.0,16.9,42,Open-Meteo Historical Weather API
+Suez,2026-05-11,2026,5,0,33.6,18.9,26,Open-Meteo Historical Weather API
+Suez,2026-05-12,2026,5,2,38.5,19.6,26,Open-Meteo Historical Weather API
+Suez,2026-05-13,2026,5,2,33.8,18.5,39,Open-Meteo Historical Weather API
+Suez,2026-05-14,2026,5,1,37.3,22.1,27,Open-Meteo Historical Weather API
+Suez,2026-05-15,2026,5,3,33.4,20.9,39,Open-Meteo Historical Weather API
+Suez,2026-05-16,2026,5,2,29.2,16.9,54,Open-Meteo Historical Weather API
+Suez,2026-05-17,2026,5,2,35.0,20.2,37,Open-Meteo Historical Weather API
+Suez,2026-05-18,2026,5,2,35.2,24.6,34,Open-Meteo Historical Weather API
+Suez,2026-05-19,2026,5,2,33.7,20.3,41,Open-Meteo Historical Weather API
+Suez,2026-05-20,2026,5,1,31.5,20.1,35,Open-Meteo Historical Weather API
+Suez,2026-05-21,2026,5,2,29.4,17.4,45,Open-Meteo Historical Weather API
+Suez,2026-05-22,2026,5,1,29.7,17.6,51,Open-Meteo Historical Weather API
+Suez,2026-05-23,2026,5,2,30.2,18.5,47,Open-Meteo Historical Weather API
+Suez,2026-05-24,2026,5,0,30.6,19.1,47,Open-Meteo Historical Weather API
+Suez,2026-05-25,2026,5,1,29.6,17.7,59,Open-Meteo Historical Weather API
+Suez,2026-05-26,2026,5,3,28.7,17.6,59,Open-Meteo Historical Weather API
+Suez,2026-05-27,2026,5,3,29.1,17.6,59,Open-Meteo Historical Weather API
+Suez,2026-05-28,2026,5,2,32.1,18.0,54,Open-Meteo Historical Weather API
+Suez,2026-05-29,2026,5,0,32.2,19.9,41,Open-Meteo Historical Weather API
+Suez,2026-05-30,2026,5,0,32.2,19.3,47,Open-Meteo Historical Weather API
+Suez,2026-05-31,2026,5,3,32.8,20.0,45,Open-Meteo Historical Weather API
+Aswan,2026-05-01,2026,5,0,36.4,21.1,15,Open-Meteo Historical Weather API
+Aswan,2026-05-02,2026,5,0,39.9,22.3,16,Open-Meteo Historical Weather API
+Aswan,2026-05-03,2026,5,3,40.6,26.8,17,Open-Meteo Historical Weather API
+Aswan,2026-05-04,2026,5,0,32.8,24.8,24,Open-Meteo Historical Weather API
+Aswan,2026-05-05,2026,5,0,30.1,18.2,20,Open-Meteo Historical Weather API
+Aswan,2026-05-06,2026,5,0,31.3,17.2,21,Open-Meteo Historical Weather API
+Aswan,2026-05-07,2026,5,0,32.4,17.9,16,Open-Meteo Historical Weather API
+Aswan,2026-05-08,2026,5,0,34.9,19.5,19,Open-Meteo Historical Weather API
+Aswan,2026-05-09,2026,5,3,36.9,20.9,15,Open-Meteo Historical Weather API
+Aswan,2026-05-10,2026,5,3,39.0,22.5,14,Open-Meteo Historical Weather API
+Aswan,2026-05-11,2026,5,0,40.6,23.9,15,Open-Meteo Historical Weather API
+Aswan,2026-05-12,2026,5,0,41.8,25.3,15,Open-Meteo Historical Weather API
+Aswan,2026-05-13,2026,5,0,42.2,24.4,12,Open-Meteo Historical Weather API
+Aswan,2026-05-14,2026,5,0,41.5,26.8,12,Open-Meteo Historical Weather API
+Aswan,2026-05-15,2026,5,1,43.2,26.0,10,Open-Meteo Historical Weather API
+Aswan,2026-05-16,2026,5,2,37.9,27.3,15,Open-Meteo Historical Weather API
+Aswan,2026-05-17,2026,5,0,43.1,26.1,16,Open-Meteo Historical Weather API
+Aswan,2026-05-18,2026,5,0,45.9,29.4,15,Open-Meteo Historical Weather API
+Aswan,2026-05-19,2026,5,0,47.8,30.5,11,Open-Meteo Historical Weather API
+Aswan,2026-05-20,2026,5,3,46.7,30.6,14,Open-Meteo Historical Weather API
+Aswan,2026-05-21,2026,5,0,34.8,26.5,21,Open-Meteo Historical Weather API
+Aswan,2026-05-22,2026,5,0,35.9,22.5,20,Open-Meteo Historical Weather API
+Aswan,2026-05-23,2026,5,3,36.9,25.0,18,Open-Meteo Historical Weather API
+Aswan,2026-05-24,2026,5,3,35.8,25.6,14,Open-Meteo Historical Weather API
+Aswan,2026-05-25,2026,5,3,35.4,23.9,17,Open-Meteo Historical Weather API
+Aswan,2026-05-26,2026,5,0,35.3,23.6,22,Open-Meteo Historical Weather API
+Aswan,2026-05-27,2026,5,3,35.3,23.1,23,Open-Meteo Historical Weather API
+Aswan,2026-05-28,2026,5,3,35.6,23.8,20,Open-Meteo Historical Weather API
+Aswan,2026-05-29,2026,5,0,36.5,24.3,19,Open-Meteo Historical Weather API
+Aswan,2026-05-30,2026,5,0,36.8,24.8,16,Open-Meteo Historical Weather API
+Aswan,2026-05-31,2026,5,0,37.9,24.7,16,Open-Meteo Historical Weather API
+Assiut,2026-05-01,2026,5,3,35.0,19.2,17,Open-Meteo Historical Weather API
+Assiut,2026-05-02,2026,5,3,40.9,20.3,16,Open-Meteo Historical Weather API
+Assiut,2026-05-03,2026,5,2,33.4,21.9,29,Open-Meteo Historical Weather API
+Assiut,2026-05-04,2026,5,0,27.4,17.1,33,Open-Meteo Historical Weather API
+Assiut,2026-05-05,2026,5,0,26.4,15.7,32,Open-Meteo Historical Weather API
+Assiut,2026-05-06,2026,5,0,27.5,16.1,27,Open-Meteo Historical Weather API
+Assiut,2026-05-07,2026,5,0,29.5,16.1,30,Open-Meteo Historical Weather API
+Assiut,2026-05-08,2026,5,1,32.1,16.3,31,Open-Meteo Historical Weather API
+Assiut,2026-05-09,2026,5,3,34.8,18.0,28,Open-Meteo Historical Weather API
+Assiut,2026-05-10,2026,5,3,37.3,20.4,18,Open-Meteo Historical Weather API
+Assiut,2026-05-11,2026,5,0,37.3,21.6,19,Open-Meteo Historical Weather API
+Assiut,2026-05-12,2026,5,0,41.4,22.0,14,Open-Meteo Historical Weather API
+Assiut,2026-05-13,2026,5,0,37.3,24.6,20,Open-Meteo Historical Weather API
+Assiut,2026-05-14,2026,5,1,40.7,22.9,13,Open-Meteo Historical Weather API
+Assiut,2026-05-15,2026,5,2,38.5,24.7,15,Open-Meteo Historical Weather API
+Assiut,2026-05-16,2026,5,3,34.7,23.0,20,Open-Meteo Historical Weather API
+Assiut,2026-05-17,2026,5,2,43.5,22.8,22,Open-Meteo Historical Weather API
+Assiut,2026-05-18,2026,5,3,46.4,29.5,14,Open-Meteo Historical Weather API
+Assiut,2026-05-19,2026,5,2,44.2,28.5,19,Open-Meteo Historical Weather API
+Assiut,2026-05-20,2026,5,0,36.2,27.0,23,Open-Meteo Historical Weather API
+Assiut,2026-05-21,2026,5,1,30.6,20.2,30,Open-Meteo Historical Weather API
+Assiut,2026-05-22,2026,5,3,33.0,20.6,30,Open-Meteo Historical Weather API
+Assiut,2026-05-23,2026,5,2,34.3,21.1,25,Open-Meteo Historical Weather API
+Assiut,2026-05-24,2026,5,0,33.7,21.8,23,Open-Meteo Historical Weather API
+Assiut,2026-05-25,2026,5,0,33.0,21.6,30,Open-Meteo Historical Weather API
+Assiut,2026-05-26,2026,5,3,32.6,22.0,33,Open-Meteo Historical Weather API
+Assiut,2026-05-27,2026,5,0,33.1,21.0,35,Open-Meteo Historical Weather API
+Assiut,2026-05-28,2026,5,3,34.7,21.1,28,Open-Meteo Historical Weather API
+Assiut,2026-05-29,2026,5,1,35.1,22.8,23,Open-Meteo Historical Weather API
+Assiut,2026-05-30,2026,5,0,35.7,23.0,23,Open-Meteo Historical Weather API
+Assiut,2026-05-31,2026,5,1,36.4,23.4,23,Open-Meteo Historical Weather API
+Beni Suef,2026-05-01,2026,5,0,33.0,16.3,33,Open-Meteo Historical Weather API
+Beni Suef,2026-05-02,2026,5,3,38.0,17.8,22,Open-Meteo Historical Weather API
+Beni Suef,2026-05-03,2026,5,2,30.5,17.6,42,Open-Meteo Historical Weather API
+Beni Suef,2026-05-04,2026,5,0,25.3,14.0,42,Open-Meteo Historical Weather API
+Beni Suef,2026-05-05,2026,5,1,24.8,13.2,41,Open-Meteo Historical Weather API
+Beni Suef,2026-05-06,2026,5,1,26.6,13.4,36,Open-Meteo Historical Weather API
+Beni Suef,2026-05-07,2026,5,2,28.5,15.4,43,Open-Meteo Historical Weather API
+Beni Suef,2026-05-08,2026,5,3,30.4,15.6,44,Open-Meteo Historical Weather API
+Beni Suef,2026-05-09,2026,5,3,33.1,17.5,35,Open-Meteo Historical Weather API
+Beni Suef,2026-05-10,2026,5,3,35.5,19.4,26,Open-Meteo Historical Weather API
+Beni Suef,2026-05-11,2026,5,0,36.6,18.4,22,Open-Meteo Historical Weather API
+Beni Suef,2026-05-12,2026,5,1,39.8,20.9,25,Open-Meteo Historical Weather API
+Beni Suef,2026-05-13,2026,5,2,36.4,19.1,36,Open-Meteo Historical Weather API
+Beni Suef,2026-05-14,2026,5,2,39.6,20.7,25,Open-Meteo Historical Weather API
+Beni Suef,2026-05-15,2026,5,3,34.9,22.4,28,Open-Meteo Historical Weather API
+Beni Suef,2026-05-16,2026,5,2,32.2,18.3,37,Open-Meteo Historical Weather API
+Beni Suef,2026-05-17,2026,5,2,42.5,22.3,25,Open-Meteo Historical Weather API
+Beni Suef,2026-05-18,2026,5,3,40.3,24.9,26,Open-Meteo Historical Weather API
+Beni Suef,2026-05-19,2026,5,2,38.6,23.6,28,Open-Meteo Historical Weather API
+Beni Suef,2026-05-20,2026,5,0,31.8,21.8,35,Open-Meteo Historical Weather API
+Beni Suef,2026-05-21,2026,5,2,29.0,17.3,45,Open-Meteo Historical Weather API
+Beni Suef,2026-05-22,2026,5,1,31.6,18.8,38,Open-Meteo Historical Weather API
+Beni Suef,2026-05-23,2026,5,1,32.8,19.8,33,Open-Meteo Historical Weather API
+Beni Suef,2026-05-24,2026,5,0,32.8,20.0,34,Open-Meteo Historical Weather API
+Beni Suef,2026-05-25,2026,5,2,31.8,19.3,41,Open-Meteo Historical Weather API
+Beni Suef,2026-05-26,2026,5,3,30.5,19.3,48,Open-Meteo Historical Weather API
+Beni Suef,2026-05-27,2026,5,3,32.1,19.7,43,Open-Meteo Historical Weather API
+Beni Suef,2026-05-28,2026,5,1,33.6,20.3,38,Open-Meteo Historical Weather API
+Beni Suef,2026-05-29,2026,5,0,33.6,21.3,31,Open-Meteo Historical Weather API
+Beni Suef,2026-05-30,2026,5,0,34.8,20.9,33,Open-Meteo Historical Weather API
+Beni Suef,2026-05-31,2026,5,2,35.5,22.4,33,Open-Meteo Historical Weather API
+Port Said,2026-05-01,2026,5,3,25.2,14.9,73,Open-Meteo Historical Weather API
+Port Said,2026-05-02,2026,5,51,30.2,16.3,64,Open-Meteo Historical Weather API
+Port Said,2026-05-03,2026,5,61,25.3,16.1,68,Open-Meteo Historical Weather API
+Port Said,2026-05-04,2026,5,3,23.1,13.7,56,Open-Meteo Historical Weather API
+Port Said,2026-05-05,2026,5,3,22.5,14.1,55,Open-Meteo Historical Weather API
+Port Said,2026-05-06,2026,5,3,23.0,13.6,55,Open-Meteo Historical Weather API
+Port Said,2026-05-07,2026,5,1,22.4,14.9,64,Open-Meteo Historical Weather API
+Port Said,2026-05-08,2026,5,3,24.2,16.7,67,Open-Meteo Historical Weather API
+Port Said,2026-05-09,2026,5,3,26.5,16.7,72,Open-Meteo Historical Weather API
+Port Said,2026-05-10,2026,5,3,28.8,16.9,63,Open-Meteo Historical Weather API
+Port Said,2026-05-11,2026,5,3,28.9,16.6,63,Open-Meteo Historical Weather API
+Port Said,2026-05-12,2026,5,3,40.6,17.5,54,Open-Meteo Historical Weather API
+Port Said,2026-05-13,2026,5,2,30.5,17.4,66,Open-Meteo Historical Weather API
+Port Said,2026-05-14,2026,5,3,39.6,18.5,52,Open-Meteo Historical Weather API
+Port Said,2026-05-15,2026,5,3,26.2,18.9,68,Open-Meteo Historical Weather API
+Port Said,2026-05-16,2026,5,3,26.7,17.3,65,Open-Meteo Historical Weather API
+Port Said,2026-05-17,2026,5,2,41.3,18.4,49,Open-Meteo Historical Weather API
+Port Said,2026-05-18,2026,5,3,27.3,21.3,63,Open-Meteo Historical Weather API
+Port Said,2026-05-19,2026,5,2,28.3,19.7,64,Open-Meteo Historical Weather API
+Port Said,2026-05-20,2026,5,2,25.4,18.5,64,Open-Meteo Historical Weather API
+Port Said,2026-05-21,2026,5,3,25.6,18.0,65,Open-Meteo Historical Weather API
+Port Said,2026-05-22,2026,5,1,27.0,17.2,66,Open-Meteo Historical Weather API
+Port Said,2026-05-23,2026,5,51,27.4,17.5,70,Open-Meteo Historical Weather API
+Port Said,2026-05-24,2026,5,51,25.1,17.2,73,Open-Meteo Historical Weather API
+Port Said,2026-05-25,2026,5,1,24.9,18.1,73,Open-Meteo Historical Weather API
+Port Said,2026-05-26,2026,5,3,25.1,18.8,69,Open-Meteo Historical Weather API
+Port Said,2026-05-27,2026,5,2,26.0,19.0,72,Open-Meteo Historical Weather API
+Port Said,2026-05-28,2026,5,51,27.9,18.2,76,Open-Meteo Historical Weather API
+Port Said,2026-05-29,2026,5,1,29.1,18.5,72,Open-Meteo Historical Weather API
+Port Said,2026-05-30,2026,5,1,28.8,18.3,72,Open-Meteo Historical Weather API
+Port Said,2026-05-31,2026,5,3,27.3,18.8,72,Open-Meteo Historical Weather API
+Damietta,2026-05-01,2026,5,3,26.2,13.1,71,Open-Meteo Historical Weather API
+Damietta,2026-05-02,2026,5,3,27.9,15.0,69,Open-Meteo Historical Weather API
+Damietta,2026-05-03,2026,5,51,23.0,15.6,66,Open-Meteo Historical Weather API
+Damietta,2026-05-04,2026,5,53,22.0,13.0,58,Open-Meteo Historical Weather API
+Damietta,2026-05-05,2026,5,3,21.2,15.0,51,Open-Meteo Historical Weather API
+Damietta,2026-05-06,2026,5,3,23.6,12.2,56,Open-Meteo Historical Weather API
+Damietta,2026-05-07,2026,5,0,23.0,13.9,65,Open-Meteo Historical Weather API
+Damietta,2026-05-08,2026,5,3,25.1,15.6,67,Open-Meteo Historical Weather API
+Damietta,2026-05-09,2026,5,3,27.6,15.7,67,Open-Meteo Historical Weather API
+Damietta,2026-05-10,2026,5,3,30.9,16.1,55,Open-Meteo Historical Weather API
+Damietta,2026-05-11,2026,5,3,30.2,14.1,61,Open-Meteo Historical Weather API
+Damietta,2026-05-12,2026,5,3,40.4,16.9,59,Open-Meteo Historical Weather API
+Damietta,2026-05-13,2026,5,3,34.7,16.4,61,Open-Meteo Historical Weather API
+Damietta,2026-05-14,2026,5,3,40.0,18.1,48,Open-Meteo Historical Weather API
+Damietta,2026-05-15,2026,5,3,26.5,17.4,68,Open-Meteo Historical Weather API
+Damietta,2026-05-16,2026,5,3,28.7,16.6,57,Open-Meteo Historical Weather API
+Damietta,2026-05-17,2026,5,2,42.7,17.8,50,Open-Meteo Historical Weather API
+Damietta,2026-05-18,2026,5,51,29.9,20.8,56,Open-Meteo Historical Weather API
+Damietta,2026-05-19,2026,5,3,29.9,18.2,59,Open-Meteo Historical Weather API
+Damietta,2026-05-20,2026,5,3,25.8,17.9,61,Open-Meteo Historical Weather API
+Damietta,2026-05-21,2026,5,3,26.2,17.4,62,Open-Meteo Historical Weather API
+Damietta,2026-05-22,2026,5,2,28.3,15.9,62,Open-Meteo Historical Weather API
+Damietta,2026-05-23,2026,5,53,29.3,14.9,67,Open-Meteo Historical Weather API
+Damietta,2026-05-24,2026,5,0,27.1,15.3,71,Open-Meteo Historical Weather API
+Damietta,2026-05-25,2026,5,1,27.0,16.0,69,Open-Meteo Historical Weather API
+Damietta,2026-05-26,2026,5,3,26.9,17.4,66,Open-Meteo Historical Weather API
+Damietta,2026-05-27,2026,5,3,27.9,17.8,67,Open-Meteo Historical Weather API
+Damietta,2026-05-28,2026,5,3,30.1,15.8,71,Open-Meteo Historical Weather API
+Damietta,2026-05-29,2026,5,0,29.9,16.5,71,Open-Meteo Historical Weather API
+Damietta,2026-05-30,2026,5,1,31.2,17.4,68,Open-Meteo Historical Weather API
+Damietta,2026-05-31,2026,5,2,29.7,17.3,66,Open-Meteo Historical Weather API
+Sharkia,2026-05-01,2026,5,2,31.5,14.6,51,Open-Meteo Historical Weather API
+Sharkia,2026-05-02,2026,5,3,35.2,16.3,48,Open-Meteo Historical Weather API
+Sharkia,2026-05-03,2026,5,51,28.0,16.6,56,Open-Meteo Historical Weather API
+Sharkia,2026-05-04,2026,5,3,25.5,13.1,48,Open-Meteo Historical Weather API
+Sharkia,2026-05-05,2026,5,3,25.6,13.8,44,Open-Meteo Historical Weather API
+Sharkia,2026-05-06,2026,5,1,26.1,13.1,43,Open-Meteo Historical Weather API
+Sharkia,2026-05-07,2026,5,2,28.1,13.7,54,Open-Meteo Historical Weather API
+Sharkia,2026-05-08,2026,5,3,29.6,14.4,52,Open-Meteo Historical Weather API
+Sharkia,2026-05-09,2026,5,3,32.6,15.3,50,Open-Meteo Historical Weather API
+Sharkia,2026-05-10,2026,5,3,35.4,15.6,40,Open-Meteo Historical Weather API
+Sharkia,2026-05-11,2026,5,2,36.5,16.1,32,Open-Meteo Historical Weather API
+Sharkia,2026-05-12,2026,5,3,41.6,19.0,29,Open-Meteo Historical Weather API
+Sharkia,2026-05-13,2026,5,2,37.0,17.4,45,Open-Meteo Historical Weather API
+Sharkia,2026-05-14,2026,5,3,40.1,20.4,27,Open-Meteo Historical Weather API
+Sharkia,2026-05-15,2026,5,3,33.3,19.9,40,Open-Meteo Historical Weather API
+Sharkia,2026-05-16,2026,5,2,33.3,17.2,46,Open-Meteo Historical Weather API
+Sharkia,2026-05-17,2026,5,2,42.0,19.6,32,Open-Meteo Historical Weather API
+Sharkia,2026-05-18,2026,5,3,39.3,23.4,33,Open-Meteo Historical Weather API
+Sharkia,2026-05-19,2026,5,1,36.4,19.9,37,Open-Meteo Historical Weather API
+Sharkia,2026-05-20,2026,5,1,30.6,19.9,43,Open-Meteo Historical Weather API
+Sharkia,2026-05-21,2026,5,3,28.5,17.9,51,Open-Meteo Historical Weather API
+Sharkia,2026-05-22,2026,5,1,31.8,16.6,48,Open-Meteo Historical Weather API
+Sharkia,2026-05-23,2026,5,1,31.8,17.7,44,Open-Meteo Historical Weather API
+Sharkia,2026-05-24,2026,5,2,32.3,17.4,46,Open-Meteo Historical Weather API
+Sharkia,2026-05-25,2026,5,3,31.2,17.0,56,Open-Meteo Historical Weather API
+Sharkia,2026-05-26,2026,5,3,31.5,17.4,56,Open-Meteo Historical Weather API
+Sharkia,2026-05-27,2026,5,3,32.5,17.2,55,Open-Meteo Historical Weather API
+Sharkia,2026-05-28,2026,5,2,33.5,17.5,49,Open-Meteo Historical Weather API
+Sharkia,2026-05-29,2026,5,3,34.3,18.8,45,Open-Meteo Historical Weather API
+Sharkia,2026-05-30,2026,5,1,35.2,18.6,48,Open-Meteo Historical Weather API
+Sharkia,2026-05-31,2026,5,3,35.4,19.6,42,Open-Meteo Historical Weather API
+South Sinai,2026-05-01,2026,5,3,26.4,12.9,17,Open-Meteo Historical Weather API
+South Sinai,2026-05-02,2026,5,3,28.1,14.5,21,Open-Meteo Historical Weather API
+South Sinai,2026-05-03,2026,5,1,25.0,16.9,32,Open-Meteo Historical Weather API
+South Sinai,2026-05-04,2026,5,0,23.3,9.7,39,Open-Meteo Historical Weather API
+South Sinai,2026-05-05,2026,5,0,21.1,5.4,42,Open-Meteo Historical Weather API
+South Sinai,2026-05-06,2026,5,1,21.7,6.2,39,Open-Meteo Historical Weather API
+South Sinai,2026-05-07,2026,5,1,22.9,9.4,35,Open-Meteo Historical Weather API
+South Sinai,2026-05-08,2026,5,3,24.8,12.2,35,Open-Meteo Historical Weather API
+South Sinai,2026-05-09,2026,5,3,29.2,14.9,33,Open-Meteo Historical Weather API
+South Sinai,2026-05-10,2026,5,3,27.7,16.6,28,Open-Meteo Historical Weather API
+South Sinai,2026-05-11,2026,5,0,29.6,15.7,22,Open-Meteo Historical Weather API
+South Sinai,2026-05-12,2026,5,2,30.9,17.0,16,Open-Meteo Historical Weather API
+South Sinai,2026-05-13,2026,5,2,31.2,19.5,18,Open-Meteo Historical Weather API
+South Sinai,2026-05-14,2026,5,2,31.5,16.4,18,Open-Meteo Historical Weather API
+South Sinai,2026-05-15,2026,5,2,30.4,20.4,18,Open-Meteo Historical Weather API
+South Sinai,2026-05-16,2026,5,3,25.8,14.7,22,Open-Meteo Historical Weather API
+South Sinai,2026-05-17,2026,5,0,33.2,18.8,22,Open-Meteo Historical Weather API
+South Sinai,2026-05-18,2026,5,2,36.5,22.1,19,Open-Meteo Historical Weather API
+South Sinai,2026-05-19,2026,5,3,33.2,22.2,23,Open-Meteo Historical Weather API
+South Sinai,2026-05-20,2026,5,2,31.0,18.0,29,Open-Meteo Historical Weather API
+South Sinai,2026-05-21,2026,5,1,25.2,12.4,29,Open-Meteo Historical Weather API
+South Sinai,2026-05-22,2026,5,1,27.2,11.9,39,Open-Meteo Historical Weather API
+South Sinai,2026-05-23,2026,5,3,26.6,14.5,29,Open-Meteo Historical Weather API
+South Sinai,2026-05-24,2026,5,0,27.0,13.2,29,Open-Meteo Historical Weather API
+South Sinai,2026-05-25,2026,5,0,25.3,13.5,37,Open-Meteo Historical Weather API
+South Sinai,2026-05-26,2026,5,3,25.3,13.0,39,Open-Meteo Historical Weather API
+South Sinai,2026-05-27,2026,5,3,28.3,14.7,42,Open-Meteo Historical Weather API
+South Sinai,2026-05-28,2026,5,2,26.6,15.1,37,Open-Meteo Historical Weather API
+South Sinai,2026-05-29,2026,5,0,26.5,14.0,31,Open-Meteo Historical Weather API
+South Sinai,2026-05-30,2026,5,0,26.1,14.3,32,Open-Meteo Historical Weather API
+South Sinai,2026-05-31,2026,5,0,27.1,14.2,32,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-01,2026,5,2,30.6,14.2,62,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-02,2026,5,51,33.6,15.5,58,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-03,2026,5,53,23.4,15.2,59,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-04,2026,5,51,24.0,13.3,53,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-05,2026,5,3,22.5,14.1,47,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-06,2026,5,3,25.0,12.8,51,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-07,2026,5,2,27.2,13.4,60,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-08,2026,5,3,28.8,14.7,58,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-09,2026,5,3,30.9,15.9,55,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-10,2026,5,3,34.4,15.0,47,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-11,2026,5,1,35.9,15.9,42,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-12,2026,5,3,39.6,19.3,42,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-13,2026,5,3,36.6,16.9,53,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-14,2026,5,3,39.8,19.9,34,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-15,2026,5,3,30.5,18.5,55,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-16,2026,5,2,31.8,16.8,53,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-17,2026,5,3,43.0,19.6,36,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-18,2026,5,3,33.7,21.1,48,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-19,2026,5,2,33.4,18.7,50,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-20,2026,5,3,26.9,19.6,55,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-21,2026,5,3,27.0,18.0,56,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-22,2026,5,2,31.0,16.6,58,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-23,2026,5,51,29.8,16.5,58,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-24,2026,5,2,30.9,16.6,60,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-25,2026,5,2,29.3,16.7,64,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-26,2026,5,2,30.2,17.3,64,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-27,2026,5,2,30.8,16.7,65,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-28,2026,5,2,33.1,16.7,60,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-29,2026,5,0,32.3,17.8,63,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-30,2026,5,0,33.8,18.3,61,Open-Meteo Historical Weather API
+Kafr El Sheikh,2026-05-31,2026,5,3,33.6,18.4,55,Open-Meteo Historical Weather API
+Matrouh,2026-05-01,2026,5,3,27.0,14.7,48,Open-Meteo Historical Weather API
+Matrouh,2026-05-02,2026,5,53,20.6,17.2,77,Open-Meteo Historical Weather API
+Matrouh,2026-05-03,2026,5,63,19.0,14.8,70,Open-Meteo Historical Weather API
+Matrouh,2026-05-04,2026,5,53,19.5,13.4,55,Open-Meteo Historical Weather API
+Matrouh,2026-05-05,2026,5,3,20.5,14.0,54,Open-Meteo Historical Weather API
+Matrouh,2026-05-06,2026,5,1,22.3,12.4,70,Open-Meteo Historical Weather API
+Matrouh,2026-05-07,2026,5,3,22.3,13.7,76,Open-Meteo Historical Weather API
+Matrouh,2026-05-08,2026,5,3,23.4,13.9,73,Open-Meteo Historical Weather API
+Matrouh,2026-05-09,2026,5,3,25.1,15.2,59,Open-Meteo Historical Weather API
+Matrouh,2026-05-10,2026,5,3,30.0,16.0,44,Open-Meteo Historical Weather API
+Matrouh,2026-05-11,2026,5,3,30.8,15.9,41,Open-Meteo Historical Weather API
+Matrouh,2026-05-12,2026,5,3,29.1,18.1,58,Open-Meteo Historical Weather API
+Matrouh,2026-05-13,2026,5,3,33.3,17.2,48,Open-Meteo Historical Weather API
+Matrouh,2026-05-14,2026,5,3,30.5,19.8,39,Open-Meteo Historical Weather API
+Matrouh,2026-05-15,2026,5,3,23.4,17.7,72,Open-Meteo Historical Weather API
+Matrouh,2026-05-16,2026,5,3,28.7,16.6,57,Open-Meteo Historical Weather API
+Matrouh,2026-05-17,2026,5,3,33.9,20.4,43,Open-Meteo Historical Weather API
+Matrouh,2026-05-18,2026,5,51,24.1,19.2,72,Open-Meteo Historical Weather API
+Matrouh,2026-05-19,2026,5,3,23.8,18.2,79,Open-Meteo Historical Weather API
+Matrouh,2026-05-20,2026,5,2,22.7,18.2,67,Open-Meteo Historical Weather API
+Matrouh,2026-05-21,2026,5,2,23.1,18.1,71,Open-Meteo Historical Weather API
+Matrouh,2026-05-22,2026,5,51,23.6,16.8,75,Open-Meteo Historical Weather API
+Matrouh,2026-05-23,2026,5,51,24.4,15.7,74,Open-Meteo Historical Weather API
+Matrouh,2026-05-24,2026,5,51,23.7,16.9,76,Open-Meteo Historical Weather API
+Matrouh,2026-05-25,2026,5,1,23.5,17.0,77,Open-Meteo Historical Weather API
+Matrouh,2026-05-26,2026,5,0,24.0,17.8,73,Open-Meteo Historical Weather API
+Matrouh,2026-05-27,2026,5,0,24.6,18.2,71,Open-Meteo Historical Weather API
+Matrouh,2026-05-28,2026,5,51,25.0,16.2,74,Open-Meteo Historical Weather API
+Matrouh,2026-05-29,2026,5,0,25.9,18.0,72,Open-Meteo Historical Weather API
+Matrouh,2026-05-30,2026,5,3,25.9,18.9,76,Open-Meteo Historical Weather API
+Matrouh,2026-05-31,2026,5,3,26.8,18.1,61,Open-Meteo Historical Weather API
+Luxor,2026-05-01,2026,5,0,36.5,18.2,17,Open-Meteo Historical Weather API
+Luxor,2026-05-02,2026,5,3,42.1,20.0,16,Open-Meteo Historical Weather API
+Luxor,2026-05-03,2026,5,3,37.4,27.5,21,Open-Meteo Historical Weather API
+Luxor,2026-05-04,2026,5,0,30.8,22.2,26,Open-Meteo Historical Weather API
+Luxor,2026-05-05,2026,5,0,29.8,17.2,25,Open-Meteo Historical Weather API
+Luxor,2026-05-06,2026,5,2,31.1,15.6,24,Open-Meteo Historical Weather API
+Luxor,2026-05-07,2026,5,0,32.8,16.6,19,Open-Meteo Historical Weather API
+Luxor,2026-05-08,2026,5,0,35.6,17.6,21,Open-Meteo Historical Weather API
+Luxor,2026-05-09,2026,5,3,37.5,18.9,17,Open-Meteo Historical Weather API
+Luxor,2026-05-10,2026,5,3,38.7,21.7,17,Open-Meteo Historical Weather API
+Luxor,2026-05-11,2026,5,0,39.7,22.6,17,Open-Meteo Historical Weather API
+Luxor,2026-05-12,2026,5,0,41.1,24.3,14,Open-Meteo Historical Weather API
+Luxor,2026-05-13,2026,5,0,41.8,25.6,14,Open-Meteo Historical Weather API
+Luxor,2026-05-14,2026,5,0,40.8,24.8,12,Open-Meteo Historical Weather API
+Luxor,2026-05-15,2026,5,2,42.9,26.9,14,Open-Meteo Historical Weather API
+Luxor,2026-05-16,2026,5,3,38.1,26.2,16,Open-Meteo Historical Weather API
+Luxor,2026-05-17,2026,5,0,42.7,24.3,18,Open-Meteo Historical Weather API
+Luxor,2026-05-18,2026,5,3,48.1,29.4,13,Open-Meteo Historical Weather API
+Luxor,2026-05-19,2026,5,2,46.8,30.8,13,Open-Meteo Historical Weather API
+Luxor,2026-05-20,2026,5,3,42.7,28.5,19,Open-Meteo Historical Weather API
+Luxor,2026-05-21,2026,5,0,33.6,23.9,23,Open-Meteo Historical Weather API
+Luxor,2026-05-22,2026,5,0,35.4,21.1,26,Open-Meteo Historical Weather API
+Luxor,2026-05-23,2026,5,0,36.2,23.6,22,Open-Meteo Historical Weather API
+Luxor,2026-05-24,2026,5,3,36.0,22.6,16,Open-Meteo Historical Weather API
+Luxor,2026-05-25,2026,5,3,36.0,24.0,20,Open-Meteo Historical Weather API
+Luxor,2026-05-26,2026,5,2,35.3,23.2,25,Open-Meteo Historical Weather API
+Luxor,2026-05-27,2026,5,3,35.0,23.3,27,Open-Meteo Historical Weather API
+Luxor,2026-05-28,2026,5,2,36.2,22.2,22,Open-Meteo Historical Weather API
+Luxor,2026-05-29,2026,5,2,37.2,23.5,20,Open-Meteo Historical Weather API
+Luxor,2026-05-30,2026,5,0,37.5,23.1,18,Open-Meteo Historical Weather API
+Luxor,2026-05-31,2026,5,0,38.5,24.2,17,Open-Meteo Historical Weather API
+Qena,2026-05-01,2026,5,3,36.3,19.6,17,Open-Meteo Historical Weather API
+Qena,2026-05-02,2026,5,3,42.3,21.2,14,Open-Meteo Historical Weather API
+Qena,2026-05-03,2026,5,51,36.4,27.0,21,Open-Meteo Historical Weather API
+Qena,2026-05-04,2026,5,0,29.9,20.9,27,Open-Meteo Historical Weather API
+Qena,2026-05-05,2026,5,0,29.2,16.7,27,Open-Meteo Historical Weather API
+Qena,2026-05-06,2026,5,3,31.0,15.7,27,Open-Meteo Historical Weather API
+Qena,2026-05-07,2026,5,0,33.4,15.7,22,Open-Meteo Historical Weather API
+Qena,2026-05-08,2026,5,0,35.0,16.8,22,Open-Meteo Historical Weather API
+Qena,2026-05-09,2026,5,3,37.1,18.4,23,Open-Meteo Historical Weather API
+Qena,2026-05-10,2026,5,3,38.1,22.0,19,Open-Meteo Historical Weather API
+Qena,2026-05-11,2026,5,0,40.0,22.7,18,Open-Meteo Historical Weather API
+Qena,2026-05-12,2026,5,0,40.6,22.5,13,Open-Meteo Historical Weather API
+Qena,2026-05-13,2026,5,0,41.6,25.3,14,Open-Meteo Historical Weather API
+Qena,2026-05-14,2026,5,0,40.1,24.2,11,Open-Meteo Historical Weather API
+Qena,2026-05-15,2026,5,2,42.4,24.7,15,Open-Meteo Historical Weather API
+Qena,2026-05-16,2026,5,2,37.9,25.3,17,Open-Meteo Historical Weather API
+Qena,2026-05-17,2026,5,0,42.2,23.0,22,Open-Meteo Historical Weather API
+Qena,2026-05-18,2026,5,3,47.6,28.3,15,Open-Meteo Historical Weather API
+Qena,2026-05-19,2026,5,1,46.1,29.2,15,Open-Meteo Historical Weather API
+Qena,2026-05-20,2026,5,3,42.2,28.5,20,Open-Meteo Historical Weather API
+Qena,2026-05-21,2026,5,0,32.6,23.4,23,Open-Meteo Historical Weather API
+Qena,2026-05-22,2026,5,1,34.8,20.5,27,Open-Meteo Historical Weather API
+Qena,2026-05-23,2026,5,1,36.1,22.0,25,Open-Meteo Historical Weather API
+Qena,2026-05-24,2026,5,3,35.6,21.2,19,Open-Meteo Historical Weather API
+Qena,2026-05-25,2026,5,2,35.9,22.4,22,Open-Meteo Historical Weather API
+Qena,2026-05-26,2026,5,3,35.1,22.0,26,Open-Meteo Historical Weather API
+Qena,2026-05-27,2026,5,3,34.4,21.8,28,Open-Meteo Historical Weather API
+Qena,2026-05-28,2026,5,2,35.6,21.8,23,Open-Meteo Historical Weather API
+Qena,2026-05-29,2026,5,1,36.9,22.6,22,Open-Meteo Historical Weather API
+Qena,2026-05-30,2026,5,0,37.3,22.9,19,Open-Meteo Historical Weather API
+Qena,2026-05-31,2026,5,1,38.4,23.3,19,Open-Meteo Historical Weather API
+North Sinai,2026-05-01,2026,5,3,22.9,13.9,76,Open-Meteo Historical Weather API
+North Sinai,2026-05-02,2026,5,3,30.9,13.1,60,Open-Meteo Historical Weather API
+North Sinai,2026-05-03,2026,5,51,25.1,17.5,73,Open-Meteo Historical Weather API
+North Sinai,2026-05-04,2026,5,51,22.0,13.4,54,Open-Meteo Historical Weather API
+North Sinai,2026-05-05,2026,5,53,20.7,13.9,57,Open-Meteo Historical Weather API
+North Sinai,2026-05-06,2026,5,51,21.6,14.6,58,Open-Meteo Historical Weather API
+North Sinai,2026-05-07,2026,5,1,21.0,14.6,65,Open-Meteo Historical Weather API
+North Sinai,2026-05-08,2026,5,3,22.4,16.8,70,Open-Meteo Historical Weather API
+North Sinai,2026-05-09,2026,5,3,24.2,16.8,70,Open-Meteo Historical Weather API
+North Sinai,2026-05-10,2026,5,3,25.3,15.8,71,Open-Meteo Historical Weather API
+North Sinai,2026-05-11,2026,5,3,26.2,14.9,68,Open-Meteo Historical Weather API
+North Sinai,2026-05-12,2026,5,2,38.4,16.4,44,Open-Meteo Historical Weather API
+North Sinai,2026-05-13,2026,5,3,26.5,18.6,72,Open-Meteo Historical Weather API
+North Sinai,2026-05-14,2026,5,3,35.3,17.8,46,Open-Meteo Historical Weather API
+North Sinai,2026-05-15,2026,5,3,24.6,18.8,72,Open-Meteo Historical Weather API
+North Sinai,2026-05-16,2026,5,3,24.7,19.1,65,Open-Meteo Historical Weather API
+North Sinai,2026-05-17,2026,5,2,37.5,16.2,47,Open-Meteo Historical Weather API
+North Sinai,2026-05-18,2026,5,3,28.0,21.6,60,Open-Meteo Historical Weather API
+North Sinai,2026-05-19,2026,5,3,26.5,19.2,68,Open-Meteo Historical Weather API
+North Sinai,2026-05-20,2026,5,51,24.8,16.9,67,Open-Meteo Historical Weather API
+North Sinai,2026-05-21,2026,5,3,24.5,17.0,65,Open-Meteo Historical Weather API
+North Sinai,2026-05-22,2026,5,1,25.6,17.0,70,Open-Meteo Historical Weather API
+North Sinai,2026-05-23,2026,5,1,27.9,16.2,70,Open-Meteo Historical Weather API
+North Sinai,2026-05-24,2026,5,0,24.5,16.6,72,Open-Meteo Historical Weather API
+North Sinai,2026-05-25,2026,5,3,24.5,18.0,70,Open-Meteo Historical Weather API
+North Sinai,2026-05-26,2026,5,3,24.3,18.8,67,Open-Meteo Historical Weather API
+North Sinai,2026-05-27,2026,5,3,24.9,19.8,68,Open-Meteo Historical Weather API
+North Sinai,2026-05-28,2026,5,2,26.4,17.9,74,Open-Meteo Historical Weather API
+North Sinai,2026-05-29,2026,5,0,26.6,17.3,70,Open-Meteo Historical Weather API
+North Sinai,2026-05-30,2026,5,0,26.7,17.9,73,Open-Meteo Historical Weather API
+North Sinai,2026-05-31,2026,5,2,26.1,18.0,75,Open-Meteo Historical Weather API
+Sohag,2026-05-01,2026,5,3,35.8,18.4,16,Open-Meteo Historical Weather API
+Sohag,2026-05-02,2026,5,3,41.2,20.7,16,Open-Meteo Historical Weather API
+Sohag,2026-05-03,2026,5,3,34.5,24.0,25,Open-Meteo Historical Weather API
+Sohag,2026-05-04,2026,5,0,28.5,19.0,31,Open-Meteo Historical Weather API
+Sohag,2026-05-05,2026,5,2,27.4,16.2,29,Open-Meteo Historical Weather API
+Sohag,2026-05-06,2026,5,0,29.0,15.8,26,Open-Meteo Historical Weather API
+Sohag,2026-05-07,2026,5,0,30.9,16.1,26,Open-Meteo Historical Weather API
+Sohag,2026-05-08,2026,5,0,33.7,17.5,27,Open-Meteo Historical Weather API
+Sohag,2026-05-09,2026,5,3,36.2,18.9,23,Open-Meteo Historical Weather API
+Sohag,2026-05-10,2026,5,3,37.9,21.6,17,Open-Meteo Historical Weather API
+Sohag,2026-05-11,2026,5,0,38.4,22.7,17,Open-Meteo Historical Weather API
+Sohag,2026-05-12,2026,5,0,42.5,20.9,13,Open-Meteo Historical Weather API
+Sohag,2026-05-13,2026,5,0,39.3,25.5,16,Open-Meteo Historical Weather API
+Sohag,2026-05-14,2026,5,0,41.2,22.5,12,Open-Meteo Historical Weather API
+Sohag,2026-05-15,2026,5,2,40.9,26.4,13,Open-Meteo Historical Weather API
+Sohag,2026-05-16,2026,5,2,36.2,24.1,18,Open-Meteo Historical Weather API
+Sohag,2026-05-17,2026,5,1,43.4,22.9,23,Open-Meteo Historical Weather API
+Sohag,2026-05-18,2026,5,3,47.7,28.2,14,Open-Meteo Historical Weather API
+Sohag,2026-05-19,2026,5,3,45.1,27.9,17,Open-Meteo Historical Weather API
+Sohag,2026-05-20,2026,5,1,39.1,27.7,21,Open-Meteo Historical Weather API
+Sohag,2026-05-21,2026,5,0,31.9,21.4,26,Open-Meteo Historical Weather API
+Sohag,2026-05-22,2026,5,0,34.0,20.8,27,Open-Meteo Historical Weather API
+Sohag,2026-05-23,2026,5,3,35.0,22.9,22,Open-Meteo Historical Weather API
+Sohag,2026-05-24,2026,5,0,34.8,21.6,19,Open-Meteo Historical Weather API
+Sohag,2026-05-25,2026,5,1,34.2,21.4,27,Open-Meteo Historical Weather API
+Sohag,2026-05-26,2026,5,3,33.6,21.8,29,Open-Meteo Historical Weather API
+Sohag,2026-05-27,2026,5,3,33.7,21.5,31,Open-Meteo Historical Weather API
+Sohag,2026-05-28,2026,5,1,35.2,21.3,24,Open-Meteo Historical Weather API
+Sohag,2026-05-29,2026,5,0,36.5,23.0,21,Open-Meteo Historical Weather API
+Sohag,2026-05-30,2026,5,0,36.7,22.4,20,Open-Meteo Historical Weather API
+Sohag,2026-05-31,2026,5,2,37.3,22.9,21,Open-Meteo Historical Weather API

@@ -32,13 +32,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 RAW_DIR = BASE_DIR / "data" / "raw"
 SCRIPTS_DIR = BASE_DIR / "src" / "ingestion"
 
-COLLECTOR_SCRIPTS = [
-    SCRIPTS_DIR / "weather_data_collector.py",
-    SCRIPTS_DIR / "weather_wikipedia_data.py",
-    SCRIPTS_DIR / "weather_wikipedia_scrapping.py",
-    SCRIPTS_DIR / "wunderground.py",
-]
-
 RAW_DATA_CSV = [
     RAW_DIR / "Egypt_Weather_2022_2025_Final.csv",
     RAW_DIR / "wikipedia_revision_history.csv",
@@ -49,6 +42,16 @@ RAW_DATA_CSV = [
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
+def discover_ingestion_scripts(scripts_dir: Path | None = None) -> list[Path]:
+    """Return all ingestion Python scripts except the orchestrator itself."""
+    scripts_dir = scripts_dir or SCRIPTS_DIR
+    return sorted(
+        path
+        for path in scripts_dir.glob("*.py")
+        if path.is_file() and path.name not in {"orchestrator.py", "__init__.py"}
+    )
+
 
 def run_script(script_path: Path, *args: str) -> int:
     """Run a Python script and return its exit code."""
@@ -91,11 +94,17 @@ def main() -> None:
         sys.exit(1)
         
     # Data collection stage
+    collector_scripts = discover_ingestion_scripts()
+    if not collector_scripts:
+        log.error("No ingestion scripts were found in %s", SCRIPTS_DIR)
+        sys.exit(1)
+
     log.info("=" * 50)
     log.info("STAGE 1: Collecting weather data")
+    log.info("Found %d ingestion scripts", len(collector_scripts))
     log.info("=" * 50)
 
-    for script_path in COLLECTOR_SCRIPTS:
+    for script_path in collector_scripts:
         exit_code = run_script(script_path)
         if exit_code != 0:
             log.error("Data collection failed for %s with exit code %d", script_path.name, exit_code)
