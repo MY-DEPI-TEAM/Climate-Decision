@@ -2,7 +2,7 @@
 
 **Smart Data Lakehouse Platform for Egyptian Climate Intelligence**
 
-Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)** data platform built on a **Medallion Architecture (Bronze → Silver → Gold)**. It ingests Egyptian weather data, cleans and models it into an analytics-ready lakehouse, forecasts future climate trends with ML, and exposes everything through a **LangChain + Ollama AI Agent** that answers natural-language questions and supports data-driven decisions.
+Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)** data platform built on a **Medallion Architecture (Bronze → Silver → Gold)**. It ingests Egyptian weather data, cleans and models it into an analytics-ready lakehouse, forecasts future climate trends with ML, and exposes everything through a **LangChain + NVIDIA NIM AI Agent** that answers natural-language questions and supports data-driven decisions.
 
 ---
 
@@ -25,11 +25,121 @@ Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)**
 Raw Sources ──▶ Bronze (raw ingest) ──▶ Silver (cleaning) ──▶ Gold (facts/dims + ML-ready)
    │                                                                 │
    ├─ Open-Meteo API (governorate weather)                          ├─ ML Prediction (6-month forecast)
-   ├─ Wikipedia revision history                                    └─ AI Agent (LangChain + Ollama)
+   ├─ Wikipedia revision history                                    └─ AI Agent (LangChain + NVIDIA NIM)
    └─ Scraped climate insights                                              │
                                                                       Natural-language
                                                                       decision support
 ```
+
+---
+
+## 🗄️ Data Model (ER Diagram)
+
+```mermaid
+erDiagram
+    climate_insights ||--o{ stg_climate_insights : "loads into"
+    wikipedia_revision_history ||--o{ stg_wikipedia_revision_history : "loads into"
+    stg_climate_insights ||--o{ climate_insights_long : "unpivots into"
+    stg_wikipedia_revision_history ||--o{ climate_insights_long : "enriches"
+    climate_insights_long ||--o{ merged_weather : "feeds"
+    merged_weather ||--o{ stg_governorates_weather : "feeds"
+    merged_weather ||--o{ stg_egypt_weather_final : "feeds"
+
+    climate_insights {
+        varchar metric_name
+        varchar jan
+        varchar feb
+        varchar mar
+        varchar apr
+        varchar may
+        varchar jun
+        varchar jul
+        varchar aug
+        varchar sep
+        varchar oct
+        varchar nov
+        varchar dec
+        varchar year_value
+        varchar source
+    }
+
+    stg_climate_insights {
+        varchar metric_name PK
+        varchar jan
+        varchar feb
+        varchar mar
+        varchar apr
+        varchar may
+        varchar jun
+        varchar jul
+        varchar aug
+        varchar sep
+        varchar oct
+        varchar nov
+        varchar dec
+        varchar year_value
+        varchar source
+    }
+
+    climate_insights_long {
+        varchar metric_name PK
+        int month_num PK
+        varchar value
+    }
+
+    wikipedia_revision_history {
+        datetime revision_timestamp
+        varchar user
+        text comment
+        varchar source
+    }
+
+    stg_wikipedia_revision_history {
+        datetime revision_timestamp PK
+        varchar user
+        text comment
+        varchar source
+    }
+
+    merged_weather {
+        varchar id PK
+        varchar governorate
+        date date PK
+        int weather_code
+        varchar condition
+        numeric high_temp
+        numeric max_temp
+        numeric avg_max_temp
+        numeric range_max_temp
+        numeric std_max_temp
+        numeric low_temp_c
+        numeric min_temp
+        numeric avg_min_temp
+        numeric range_min_temp
+        numeric std_min_temp
+        numeric avg_humidity
+    }
+
+    stg_governorates_weather {
+        varchar governorate PK
+        varchar condition
+        numeric high_temp_c
+        numeric low_temp_c
+        date weather_date PK
+    }
+
+    stg_egypt_weather_final {
+        varchar governorate PK
+        date weather_date PK
+        int weather_code
+        numeric max_temp
+        numeric min_temp
+        numeric avg_humidity
+        varchar source
+    }
+```
+
+> Bronze layer (`climate_insights`, `wikipedia_revision_history`) is cleaned into Silver staging tables, unpivoted into a long format, then merged and modeled into the Gold layer (`merged_weather` and its governorate-level views) used by the ML forecasting module and the AI Agent.
 
 ---
 
