@@ -1,93 +1,146 @@
+# 🌍 Climate-Decision
+
+**Smart Data Lakehouse Platform for Egyptian Climate Intelligence**
+
+Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)** data platform built on a **Medallion Architecture (Bronze → Silver → Gold)**. It ingests Egyptian weather data, cleans and models it into an analytics-ready lakehouse, forecasts future climate trends with ML, and exposes everything through a **LangChain + Ollama AI Agent** that answers natural-language questions and supports data-driven decisions.
+
+---
+
+## ✨ Key Features
+
+- 🌦️ **Automated ingestion** of historical & current-year weather data for Egyptian governorates (Open-Meteo + Wikipedia revision history + scraped climate insights)
+- 🥉🥈🥇 **Medallion Architecture** — Bronze (raw), Silver (cleaned/conformed), Gold (fact/dimension tables + ML-ready datasets)
+- 📊 **Star-schema Gold layer** with `fact_weather` and supporting dimensions (`dim_date`, `dim_location`, `dim_condition`)
+- 🤖 **ML forecasting module** producing 6-month-ahead weather predictions
+- 🧠 **AI Agent (LangChain + Ollama)** for context-aware, natural-language querying over the lakehouse
+- ☁️ **Azure SQL & local SQL support** via dedicated database scripts
+- 🐳 **Dockerized** for easy deployment (`Dockerfile`, `compose.yaml`)
+- ✅ **Test suite** covering ingestion fallback, cleaning, prediction, and app behavior
+
+---
+
+## 🏗️ Architecture
+
+```
+Raw Sources ──▶ Bronze (raw ingest) ──▶ Silver (cleaning) ──▶ Gold (facts/dims + ML-ready)
+   │                                                                 │
+   ├─ Open-Meteo API (governorate weather)                          ├─ ML Prediction (6-month forecast)
+   ├─ Wikipedia revision history                                    └─ AI Agent (LangChain + Ollama)
+   └─ Scraped climate insights                                              │
+                                                                      Natural-language
+                                                                      decision support
+```
+
+---
+
+## 📁 Project Structure
 
 ```
 Climate-Decision
-├─ .dockerignore
-├─ .pytest_cache
-│  ├─ CACHEDIR.TAG
-│  └─ v
-│     └─ cache
-│        ├─ lastfailed
-│        └─ nodeids
-├─ app.py
-├─ compose.yaml
-├─ data
-│  ├─ lakehouse
-│  │  └─ gold
-│  │     ├─ fact_weather.parquet
-│  │     └─ ml_ready.parquet
-│  ├─ parsed
-│  │  └─ wikipedia_revision_history_clean.csv
-│  ├─ predictions
-│  │  └─ weather_forecast_next_6_months.csv
-│  └─ raw
-│     ├─ current_year
-│     │  ├─ Egypt_Weather_2026_01.csv
-│     │  ├─ Egypt_Weather_2026_02.csv
-│     │  ├─ Egypt_Weather_2026_03.csv
-│     │  ├─ Egypt_Weather_2026_04.csv
-│     │  ├─ Egypt_Weather_2026_05.csv
-│     │  └─ Egypt_Weather_2026_06.csv
-│     ├─ egypt_governorates_weather.csv
-│     ├─ Egypt_Weather_2022_2025_Final.csv
-│     ├─ scraped_climate_insights.csv
-│     └─ wikipedia_revision_history.csv
-├─ db_scripts
-│  ├─ Azure.sql
-│  └─ Locally.sql
-├─ Dockerfile
-├─ lakehouse
-│  ├─ bronze
-│  │  ├─ access.py
-│  │  └─ __init__.py
-│  ├─ gold
-│  │  ├─ fact_weather.py
-│  │  ├─ ml.py
-│  │  ├─ vis
-│  │  │  ├─ dim_condition.py
-│  │  │  ├─ dim_date.py
-│  │  │  ├─ dim_location.py
-│  │  │  └─ __init__.py
-│  │  └─ __init__.py
-│  ├─ silver
-│  │  ├─ cleaning.py
-│  │  └─ __init__.py
-│  └─ __init__.py
-├─ main.py
-├─ ml
-│  └─ prediction.py
-├─ README.Docker.md
-├─ requirements.txt
-├─ src
-│  ├─ database
-│  │  ├─ data_uploader.py
-│  │  ├─ db_loader.py
-│  │  ├─ db_uploader.py
-│  │  ├─ run_azure_data.py
-│  │  └─ __init__.py
-│  ├─ ingestion
-│  │  ├─ current_year_collector.py
-│  │  ├─ orchestrator.py
-│  │  ├─ weather_data_collector.py
-│  │  ├─ weather_wikipedia_data.py
-│  │  ├─ weather_wikipedia_scrapping.py
-│  │  ├─ wunderground.py
-│  │  └─ __init__.py
-│  ├─ transformation
-│  │  ├─ wiki_transformer.py
-│  │  └─ __init__.py
-│  └─ __init__.py
-├─ static
-│  ├─ script.js
-│  └─ style.css
-├─ templates
-│  └─ index.html
-├─ tests
-│  ├─ test_access_current_year_fallback.py
-│  ├─ test_app_forecast_retrieval.py
-│  ├─ test_cleaning_fallback.py
-│  ├─ test_orchestrator.py
-│  ├─ test_prediction_column_compatibility.py
-│  └─ test_prediction_preprocessing.py
-└─ tree.txt
-
+├─ app.py                     # Flask/web app entry point
+├─ main.py                    # Pipeline orchestration entry point
+├─ compose.yaml / Dockerfile  # Containerized deployment
+├─ data/
+│  ├─ raw/                    # Raw ingested CSVs (historical + current year)
+│  ├─ parsed/                 # Cleaned intermediate data (e.g. Wikipedia history)
+│  ├─ lakehouse/gold/         # fact_weather.parquet, ml_ready.parquet
+│  └─ predictions/            # 6-month weather forecast outputs
+├─ lakehouse/
+│  ├─ bronze/                 # Raw data access layer
+│  ├─ silver/                 # Cleaning & conforming logic
+│  └─ gold/                   # Fact table, ML feature prep, dimension builders (vis/)
+├─ ml/
+│  └─ prediction.py           # Forecasting model
+├─ src/
+│  ├─ ingestion/               # Weather + Wikipedia collectors, scraper, orchestrator
+│  ├─ database/                # Azure/local DB uploaders & loaders
+│  └─ transformation/          # Wikipedia data transformer
+├─ templates/ & static/        # Frontend for the web app
+├─ db_scripts/                 # Azure.sql / Locally.sql schema scripts
+└─ tests/                      # Unit tests for ingestion, cleaning, prediction, app
 ```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Ingestion | Python, Open-Meteo API, Web Scraping |
+| Storage | Azure SQL, Parquet (Lakehouse) |
+| Transformation | Pandas, custom ETLT pipelines |
+| ML Forecasting | Scikit-learn |
+| AI Agent | LangChain, Ollama |
+| Web App | Flask, HTML/CSS/JS |
+| Deployment | Docker, Docker Compose |
+| Testing | Pytest |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.10+
+- Docker (optional, for containerized run)
+- An Azure SQL instance or local SQL Server (see `db_scripts/`)
+- [Ollama](https://ollama.com) installed locally for the AI Agent
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/MY-DEPI-TEAM/Climate-Decision.git
+cd Climate-Decision
+```
+
+### 2. Set up environment variables
+```bash
+cp .env.example .env
+# Fill in your Azure SQL connection string, API keys, etc.
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the ETLT pipeline
+```bash
+python main.py
+```
+
+### 5. Launch the web app
+```bash
+python app.py
+```
+
+### Or run everything with Docker
+```bash
+docker compose up --build
+```
+
+---
+
+## 🧪 Running Tests
+```bash
+pytest tests/
+```
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Expand AI Agent tool coverage for deeper decision-support queries
+- [ ] Add more governorates / data sources
+- [ ] CI/CD pipeline for automated testing & deployment
+- [ ] Interactive dashboard for Gold-layer exploration
+
+---
+
+## 👥 Team
+
+Built by **MY-DEPI-TEAM** as a graduation project — combining data engineering, ML, and AI agent design into a unified climate decision-support platform.
+
+---
+
+## 📄 License
+
+This project is currently unlicensed. Add a license file if you plan to open-source it publicly.
