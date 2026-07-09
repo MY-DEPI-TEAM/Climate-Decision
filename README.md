@@ -2,7 +2,7 @@
 
 **Smart Data Lakehouse Platform for Egyptian Climate Intelligence**
 
-Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)** data platform built on a **Medallion Architecture (Bronze → Silver → Gold)**. It ingests Egyptian weather data, cleans and models it into an analytics-ready lakehouse, forecasts future climate trends with ML, and exposes everything through a **LangChain + Nvidia AI Agent** that answers natural-language questions and supports data-driven decisions.
+Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)** data platform built on a **Medallion Architecture (Bronze → Silver → Gold)**. It ingests Egyptian weather data, cleans and models it into an analytics-ready lakehouse, forecasts future climate trends with ML, and exposes everything through a **LangChain + Ollama AI Agent** that answers natural-language questions and supports data-driven decisions.
 
 ---
 
@@ -12,7 +12,7 @@ Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)**
 - 🥉🥈🥇 **Medallion Architecture** — Bronze (raw), Silver (cleaned/conformed), Gold (fact/dimension tables + ML-ready datasets)
 - 📊 **Star-schema Gold layer** with `fact_weather` and supporting dimensions (`dim_date`, `dim_location`, `dim_condition`)
 - 🤖 **ML forecasting module** producing 6-month-ahead weather predictions
-- 🧠 **AI Agent (LangChain + Nvidia)** for context-aware, natural-language querying over the lakehouse
+- 🧠 **AI Agent (LangChain + NVIDIA NIM API)** for context-aware, natural-language querying over the lakehouse
 - ☁️ **Azure SQL & local SQL support** via dedicated database scripts
 - 🐳 **Dockerized** for easy deployment (`Dockerfile`, `compose.yaml`)
 - ✅ **Test suite** covering ingestion fallback, cleaning, prediction, and app behavior
@@ -25,7 +25,7 @@ Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)**
 Raw Sources ──▶ Bronze (raw ingest) ──▶ Silver (cleaning) ──▶ Gold (facts/dims + ML-ready)
    │                                                                 │
    ├─ Open-Meteo API (governorate weather)                          ├─ ML Prediction (6-month forecast)
-   ├─ Wikipedia revision history                                    └─ AI Agent (LangChain + Nvidia)
+   ├─ Wikipedia revision history                                    └─ AI Agent (LangChain + Ollama)
    └─ Scraped climate insights                                              │
                                                                       Natural-language
                                                                       decision support
@@ -70,7 +70,7 @@ Climate-Decision
 | Storage | Azure SQL, Parquet (Lakehouse) |
 | Transformation | Pandas, custom ETLT pipelines |
 | ML Forecasting | Scikit-learn |
-| AI Agent | LangChain, Ollama |
+| AI Agent | LangChain, NVIDIA NIM API |
 | Web App | Flask, HTML/CSS/JS |
 | Deployment | Docker, Docker Compose |
 | Testing | Pytest |
@@ -83,7 +83,7 @@ Climate-Decision
 - Python 3.10+
 - Docker (optional, for containerized run)
 - An Azure SQL instance or local SQL Server (see `db_scripts/`)
-- [Ollama](https://ollama.com) installed locally for the AI Agent
+- An [NVIDIA API key](https://build.nvidia.com) for the AI Agent (NVIDIA NIM)
 
 ### 1. Clone the repository
 ```bash
@@ -94,7 +94,7 @@ cd Climate-Decision
 ### 2. Set up environment variables
 ```bash
 cp .env.example .env
-# Fill in your Azure SQL connection string, API keys, etc.
+# Fill in your Azure SQL connection string, NVIDIA_API_KEY, etc.
 ```
 
 ### 3. Install dependencies
