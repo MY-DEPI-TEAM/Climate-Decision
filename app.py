@@ -12,8 +12,8 @@ from openai import OpenAI
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-DATA_DIR = Path(r"D:\VS_code\VS_code_WorkSpace\python_projects\Climate-Decision")
-FORECAST_CSV_PATH = DATA_DIR / "data" / "predictions" / "weather_forecast_next_6_months.csv"
+BASE_DIR = Path(__file__).resolve().parent
+FORECAST_CSV_PATH = BASE_DIR / "data" / "predictions" / "weather_forecast_next_6_months.csv"
 
 NVIDIA_BASE_URL = os.environ.get("NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1")
 NVIDIA_MODEL = os.environ.get("NVIDIA_MODEL", "deepseek-ai/deepseek-v4-pro")

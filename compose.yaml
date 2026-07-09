@@ -1,14 +1,11 @@
 services:
   app:
     build: .
-    container_name: climate_etl_app
+    container_name: climate_web_app
     restart: on-failure
-    env_file:
-      - .env
+    ports:
+      - "5000:5000"
     volumes:
       - ./data:/app/data
-    stdin_open: true
-    tty: true
-    # إضافة السطرين دول لربط الحاوية بجهازك بره
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+    env_file:
+      - .env

@@ -8,6 +8,7 @@ Climate-Decision
 │     └─ cache
 │        ├─ lastfailed
 │        └─ nodeids
+├─ app.py
 ├─ compose.yaml
 ├─ data
 │  ├─ lakehouse
@@ -75,10 +76,17 @@ Climate-Decision
 │  │  ├─ wiki_transformer.py
 │  │  └─ __init__.py
 │  └─ __init__.py
+├─ static
+│  ├─ script.js
+│  └─ style.css
+├─ templates
+│  └─ index.html
 ├─ tests
 │  ├─ test_access_current_year_fallback.py
+│  ├─ test_app_forecast_retrieval.py
 │  ├─ test_cleaning_fallback.py
 │  ├─ test_orchestrator.py
+│  ├─ test_prediction_column_compatibility.py
 │  └─ test_prediction_preprocessing.py
 └─ tree.txt
 

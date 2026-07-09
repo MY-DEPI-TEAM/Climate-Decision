@@ -1,21 +1,20 @@
 FROM python:3.11-slim
 
+# منع بايثون من كتابة ملفات الكاش وللإخراج المباشر في الـ Logs
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
 WORKDIR /app
 
-# تثبيت الأدوات الأساسية والـ ODBC Driver 17 لـ SQL Server
-RUN apt-get update && apt-get install -y \
-    curl \
-    gnupg \
-    build-essential \
-    && curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor -o /usr/share/keyrings/microsoft-prod.gpg \
-    && curl https://packages.microsoft.com/config/debian/12/prod.list > /etc/apt/sources.list.d/mssql-release.list \
-    && apt-get update \
-    && ACCEPT_EULA=Y apt-get install -y msodbcsql17 \
-    && rm -rf /var/lib/apt/lists/*
-
+# نسخ ملف المتطلبات وتثبيته
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# نسخ ملفات المشروع
 COPY . .
 
-CMD ["python", "main.py"]
+# فتح منفذ الويب
+EXPOSE 5000
+
+# تشغيل تطبيق الويب مباشرة
+CMD ["python", "app.py"]
