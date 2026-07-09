@@ -46,7 +46,7 @@ def run_db_script():
                 
         print("Tables created and Bulk Insert completed successfully in SQL Server Container!")
     except pyodbc.Error as e:
-        print(f"حدث خطأ أثناء الاتصال أو التنفيذ داخل الـ Container: {e}")
+        print(f"An error occurred in the SQL Server Container: {e}")
         raise e
     
 if __name__ == "__main__":

@@ -1,6 +1,13 @@
+
 ```
 Climate-Decision
 ├─ .dockerignore
+├─ .pytest_cache
+│  ├─ CACHEDIR.TAG
+│  └─ v
+│     └─ cache
+│        ├─ lastfailed
+│        └─ nodeids
 ├─ compose.yaml
 ├─ data
 │  ├─ lakehouse
@@ -9,6 +16,8 @@ Climate-Decision
 │  │     └─ ml_ready.parquet
 │  ├─ parsed
 │  │  └─ wikipedia_revision_history_clean.csv
+│  ├─ predictions
+│  │  └─ weather_forecast_next_6_months.csv
 │  └─ raw
 │     ├─ current_year
 │     │  ├─ Egypt_Weather_2026_01.csv
@@ -43,6 +52,8 @@ Climate-Decision
 │  │  └─ __init__.py
 │  └─ __init__.py
 ├─ main.py
+├─ ml
+│  └─ prediction.py
 ├─ README.Docker.md
 ├─ requirements.txt
 ├─ src
@@ -65,8 +76,10 @@ Climate-Decision
 │  │  └─ __init__.py
 │  └─ __init__.py
 ├─ tests
+│  ├─ test_access_current_year_fallback.py
 │  ├─ test_cleaning_fallback.py
-│  └─ test_orchestrator.py
+│  ├─ test_orchestrator.py
+│  └─ test_prediction_preprocessing.py
 └─ tree.txt
 
 ```

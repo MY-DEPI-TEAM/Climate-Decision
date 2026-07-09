@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate Decision — Weather Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+    <!-- ─── Sidebar ─────────────────────────────────────────── -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-icon">🌤</span>
+                <h1>Climate<br />Advisor</h1>
+            </div>
+            <p class="subtitle">AI-powered weather intelligence</p>
+        </div>
+
+        <div class="data-source-card">
+            <div class="ds-label">Data Source</div>
+            <div class="ds-filename">{{ forecast_file }}</div>
+            <div class="ds-meta">Next 6 months forecast</div>
+        </div>
+
+        <div class="suggestions-section">
+            <h2 class="section-title">Smart Suggestions</h2>
+            <p class="section-desc">Click to ask instantly</p>
+            <div class="suggestions-container" id="suggestionsContainer">
+                <div class="suggestion-chip">Loading suggestions…</div>
+            </div>
+        </div>
+
+        <div class="sidebar-footer">
+            <p class="footer-text">Powered by Nvidia &amp; Flask</p>
+        </div>
+    </aside>
+
+    <!-- ─── Overlay for mobile sidebar toggle ────────────────── -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- ─── Main Chat Area ──────────────────────────────────── -->
+    <main class="chat-area" id="chatArea">
+
+        <!-- Mobile menu button -->
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle sidebar">
+            <span></span><span></span><span></span>
+        </button>
+
+        <!-- Chat Header -->
+        <header class="chat-header">
+            <h2>Weather Forecast Q&amp;A</h2>
+            <span class="status-indicator" id="statusIndicator">● Ready</span>
+        </header>
+
+        <!-- Messages Container -->
+        <div class="messages-container" id="messagesContainer">
+            <!-- Welcome message injected by JS -->
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <form id="chatForm" class="input-form" autocomplete="off">
+                <input
+                    type="text"
+                    id="userInput"
+                    class="input-field"
+                    placeholder="Ask about the weather forecast…"
+                    autofocus
+                />
+                <button type="submit" class="send-btn" id="sendBtn" aria-label="Send">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+
+        <!-- Spinner overlay (hidden by default) -->
+        <div class="spinner-overlay hidden" id="spinnerOverlay">
+            <div class="spinner"></div>
+            <p>The advisor is analysing the forecast…</p>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

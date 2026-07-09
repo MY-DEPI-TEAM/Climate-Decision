@@ -1,6 +1,8 @@
+flask
 pandas
 matplotlib
 requests
+openai
 beautifulsoup4
 selenium
 openmeteo-requests

@@ -28,30 +28,120 @@ def _get_spark():
     return spark
 
 
-def _load_local_fallback_df():
-    csv_path = PROJECT_ROOT / "data" / "raw" / "Egypt_Weather_2022_2025_Final.csv"
-    if not csv_path.exists():
-        raise FileNotFoundError(f"Local weather data not found at {csv_path}")
+def _get_local_weather_paths():
+    csv_paths = []
+    historical_csv = PROJECT_ROOT / "data" / "raw" / "Egypt_Weather_2022_2025_Final.csv"
+    if historical_csv.exists():
+        csv_paths.append(historical_csv)
 
-    return (
-        _get_spark()
-        .read.option("header", True)
-        .csv(str(csv_path))
-        .withColumnRenamed("Governorate", "governorate")
-        .withColumnRenamed("Date", "date")
-        .withColumnRenamed("Weather_Code", "weather_code")
-        .withColumnRenamed("Max_Temp", "avg_max_temp")
-        .withColumnRenamed("Min_Temp", "avg_min_temp")
-        .withColumnRenamed("Avg_Humidity", "avg_humidity")
-        .withColumnRenamed("Source", "source")
-        .withColumn("id", F.monotonically_increasing_id())
-        .withColumn("condition", F.lit("weather_data"))
-        .withColumn("date", F.to_date(F.col("date")))
-        .withColumn("avg_max_temp", F.col("avg_max_temp").cast("double"))
-        .withColumn("avg_min_temp", F.col("avg_min_temp").cast("double"))
-        .withColumn("avg_humidity", F.col("avg_humidity").cast("double"))
-        .withColumn("weather_code", F.col("weather_code").cast("int"))
-    )
+    current_year_dir = PROJECT_ROOT / "data" / "raw" / "current_year"
+    if current_year_dir.exists():
+        csv_paths.extend(sorted(current_year_dir.glob("Egypt_Weather_*.csv")))
+
+    return csv_paths
+
+
+def _standardize_weather_df(df):
+    rename_map = {
+        "Governorate": "governorate",
+        "Date": "date",
+        "Weather_Code": "weather_code",
+        "Avg_Humidity": "avg_humidity",
+        "Source": "source",
+        "avg_humidity": "avg_humidity",
+        "weather_code": "weather_code",
+        "source": "source",
+    }
+
+    for old_name, new_name in rename_map.items():
+        if old_name in df.columns:
+            df = df.withColumnRenamed(old_name, new_name)
+
+    if "avg_max_temp" not in df.columns and "Max_Temp" in df.columns:
+        df = df.withColumnRenamed("Max_Temp", "avg_max_temp")
+    elif "avg_max_temp" not in df.columns and "max_temp" in df.columns:
+        df = df.withColumnRenamed("max_temp", "avg_max_temp")
+
+    if "avg_min_temp" not in df.columns and "Min_Temp" in df.columns:
+        df = df.withColumnRenamed("Min_Temp", "avg_min_temp")
+    elif "avg_min_temp" not in df.columns and "min_temp" in df.columns:
+        df = df.withColumnRenamed("min_temp", "avg_min_temp")
+
+    if "id" not in df.columns:
+        df = df.withColumn("id", F.concat_ws("_", F.col("governorate"), F.col("date")))
+    if "condition" not in df.columns:
+        df = df.withColumn("condition", F.lit("weather_data"))
+    if "source" not in df.columns:
+        df = df.withColumn("source", F.lit("unknown"))
+
+    if "date" in df.columns:
+        df = df.withColumn("date", F.to_date(F.col("date")))
+
+    for col_name, cast_type in {
+        "weather_code": "int",
+        "avg_max_temp": "double",
+        "avg_min_temp": "double",
+        "avg_humidity": "double",
+    }.items():
+        if col_name in df.columns:
+            df = df.withColumn(col_name, F.col(col_name).cast(cast_type))
+
+    return df
+
+
+def _load_local_fallback_df():
+    csv_paths = _get_local_weather_paths()
+    if not csv_paths:
+        raise FileNotFoundError("No local weather CSV files were found under data/raw")
+
+    spark_local = _get_spark()
+    data_frames = []
+    for csv_path in csv_paths:
+        df = (
+            spark_local.read.option("header", True)
+            .csv(str(csv_path))
+        )
+        data_frames.append(_standardize_weather_df(df))
+
+    combined_df = data_frames[0]
+    for extra_df in data_frames[1:]:
+        combined_df = combined_df.unionByName(extra_df, allowMissingColumns=True)
+
+    return combined_df
+
+
+def _read_weather_tables(spark_local, azure_url, azure_props):
+    weather_tables = ["dbo.merged_weather", "dbo.weather_monthly_current_year"]
+    data_frames = []
+
+    for table_name in weather_tables:
+        try:
+            table_df = spark_local.read.jdbc(url=azure_url, table=table_name, properties=azure_props)
+            data_frames.append(_standardize_weather_df(table_df))
+            print(f"Loaded weather data from {table_name}")
+        except Exception as exc:
+            print(f"Skipping missing or unreadable table {table_name}: {exc}")
+
+    if not data_frames:
+        raise RuntimeError("No weather tables could be read from Azure SQL")
+
+    combined_df = data_frames[0]
+    for extra_df in data_frames[1:]:
+        combined_df = combined_df.unionByName(extra_df, allowMissingColumns=True)
+
+    return combined_df
+
+
+def _read_wikipedia_df(spark_local, azure_url, azure_props):
+    try:
+        df_wiki = spark_local.read.jdbc(url=azure_url, table="dbo.wikipedia_revision_history", properties=azure_props)
+        return df_wiki.withColumn("revision_date", F.to_date(F.col("revision_timestamp")))
+    except Exception as exc:
+        print(f"Falling back to empty wiki history because it could not be loaded: {exc}")
+        return (
+            spark_local.createDataFrame([], "revision_timestamp timestamp, user string, comment string, source string")
+            .withColumn("revision_date", F.to_date(F.col("revision_timestamp")))
+        )
 
 
 # ─── Output ───────────────────────────────────────────────────
@@ -73,10 +163,9 @@ def get_joined_df():
             "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
         }
 
-        df_weather = spark_local.read.jdbc(url=azure_url, table="dbo.merged_weather", properties=azure_props)
-        df_wiki = spark_local.read.jdbc(url=azure_url, table="dbo.wikipedia_revision_history", properties=azure_props)
+        df_weather = _read_weather_tables(spark_local, azure_url, azure_props)
+        df_wiki = _read_wikipedia_df(spark_local, azure_url, azure_props)
 
-        df_wiki = df_wiki.withColumn("revision_date", F.to_date("revision_timestamp"))
         join_cond = df_wiki["revision_date"] <= df_weather["date"]
         df_joined = df_weather.join(df_wiki, join_cond, "left")
 
