@@ -2,7 +2,7 @@
 
 **Smart Data Lakehouse Platform for Egyptian Climate Intelligence**
 
-Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)** data platform built on a **Medallion Architecture (Bronze → Silver → Gold)**. It ingests Egyptian weather data, cleans and models it into an analytics-ready lakehouse, forecasts future climate trends with ML, and exposes everything through a **LangChain + Ollama AI Agent** that answers natural-language questions and supports data-driven decisions.
+Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)** data platform built on a **Medallion Architecture (Bronze → Silver → Gold)**. It ingests Egyptian weather data, cleans and models it into an analytics-ready lakehouse, forecasts future climate trends with ML, and exposes everything through a **LangChain + Nvidia AI Agent** that answers natural-language questions and supports data-driven decisions.
 
 ---
 
@@ -12,7 +12,7 @@ Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)**
 - 🥉🥈🥇 **Medallion Architecture** — Bronze (raw), Silver (cleaned/conformed), Gold (fact/dimension tables + ML-ready datasets)
 - 📊 **Star-schema Gold layer** with `fact_weather` and supporting dimensions (`dim_date`, `dim_location`, `dim_condition`)
 - 🤖 **ML forecasting module** producing 6-month-ahead weather predictions
-- 🧠 **AI Agent (LangChain + Ollama)** for context-aware, natural-language querying over the lakehouse
+- 🧠 **AI Agent (LangChain + Nvidia)** for context-aware, natural-language querying over the lakehouse
 - ☁️ **Azure SQL & local SQL support** via dedicated database scripts
 - 🐳 **Dockerized** for easy deployment (`Dockerfile`, `compose.yaml`)
 - ✅ **Test suite** covering ingestion fallback, cleaning, prediction, and app behavior
@@ -25,7 +25,7 @@ Climate-Decision is an end-to-end **ETLT (Extract, Transform, Load, Transform)**
 Raw Sources ──▶ Bronze (raw ingest) ──▶ Silver (cleaning) ──▶ Gold (facts/dims + ML-ready)
    │                                                                 │
    ├─ Open-Meteo API (governorate weather)                          ├─ ML Prediction (6-month forecast)
-   ├─ Wikipedia revision history                                    └─ AI Agent (LangChain + Ollama)
+   ├─ Wikipedia revision history                                    └─ AI Agent (LangChain + Nvidia)
    └─ Scraped climate insights                                              │
                                                                       Natural-language
                                                                       decision support
