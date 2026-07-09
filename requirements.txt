@@ -1,22 +1,18 @@
-# flask
-# pandas
-# matplotlib
-# requests
-# openai
-# beautifulsoup4
-# selenium
-# openmeteo-requests
-# requests-cache
-# retry-requests
-# pyodbc
-# lxml
-# python-dotenv
-# azure-storage-blob
-# pyspark
-# scikit-learn
-# xgboost
-# numpy
-
 flask
 pandas
+matplotlib
+requests
 openai
+beautifulsoup4
+selenium
+openmeteo-requests
+requests-cache
+retry-requests
+pyodbc
+lxml
+python-dotenv
+azure-storage-blob
+pyspark
+scikit-learn
+xgboost
+numpy
