@@ -251,6 +251,6 @@ Built by **MY-DEPI-TEAM** as a graduation project — combining data engineering
 
 ---
 
-## 📄 License
+## License & Copyright
 
-This project is currently unlicensed. Add a license file if you plan to open-source it publicly.
+© 2026 George Essam. Licensed under the [Apache License 2.0](LICENSE).
